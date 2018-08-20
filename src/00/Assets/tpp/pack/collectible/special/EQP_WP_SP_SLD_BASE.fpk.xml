@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="EQP_WP_SP_SLD_BASE.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/weapon/sld/Scenes/sd02_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/sld/Scenes/sd02_main0_def.gskl" />
+    <Entry FilePath="/Assets/tpp/weapon/sld/Scenes/sd02_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/sld/sd02_main0_def_v00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/sld/sd02_main0_def_v01.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/sld/sd02_main0_def_v02.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/sld/sd02_main0_def_v03.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/sld/sd02_main0_def_v04.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

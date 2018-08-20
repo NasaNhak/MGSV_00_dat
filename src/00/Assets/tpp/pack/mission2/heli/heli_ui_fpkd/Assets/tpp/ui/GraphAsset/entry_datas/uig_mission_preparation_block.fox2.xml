@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="UiGraphEntry" super="" version="1" />
+    <class name="UiInstanceData" super="" version="1" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x02D7CD40" unknown1="232" unknown2="5815">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
+          <value key="UiGraphEntry0000">0x02D7CDB0</value>
+          <value key="UiInstanceData0000">0x02D7CE20</value>
+          <value key="TexturePackLoadConditioner0000">0x064E1190</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiGraphEntry" classVersion="1" addr="0x02D7CDB0" unknown1="96" unknown2="5817">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>UiGraphEntry0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x02D7CD40</value>
+        </property>
+        <property name="files" type="FilePtr" container="DynamicArray" />
+        <property name="rawFiles" type="FilePtr" container="DynamicArray" arraySize="70">
+          <value>/Assets/tpp/ui/LayoutAsset/itemselector/UI_itemselector_list.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/itemselector/UI_itemselector_record.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/record/UI_recordtitle.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/record/UI_cursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/itemselector/UI_itemselector_msnprep.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tab_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tabcursor_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tablist_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_item_record.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_menu.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/sys_common/UI_sys_common_list.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/sys_common/UI_sys_common_button_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/title/UI_title_menu_record.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/title/UI_title_menu_cursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/sys_common/UI_sys_common_button.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/sys_common/UI_sys_common_buttoncursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/scrollbar/UI_scrollbar.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_a.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_c.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_d.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_e.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_f.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_g.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_h.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_wp_sub_layout_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_detail_a.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_detail_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_detail_c.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_cond_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_param_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_bud_cmd_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_skill_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_name_body.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_item_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_tablist.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_tab.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_tabcursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_slotmenu.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_cat_list.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_cat_record.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_cat_cursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/itemselector/UI_itemselector_list_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/itemselector/UI_itemselector_record_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep2.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep2_main_list.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep2_sub_list.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep2_record.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep2_cursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_msnprp_info_page_layout_a.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_msnprp_cost_popup_body.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/popup/UI_popup.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_strength.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_i.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_j.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_k.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_info.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_buddy_info.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_missionprep_loadout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_loadout/UI_mb_loadout_list.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_loadout/UI_mb_loadout_record.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_loadout/UI_mb_loadout_recordtitle.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/missionprep/UI_msnprep_emblem.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/tpp_common/UI_bg_grd.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_a_sub.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_l.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_strength_cstm.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_staff_ability.uilb</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiInstanceData" classVersion="1" addr="0x02D7CE20" unknown1="120" unknown2="5855">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>UiInstanceData0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x02D7CD40</value>
+        </property>
+        <property name="createWindowParams" type="FilePtr" container="StringMap" />
+        <property name="windowFactoryName" type="String" container="StaticArray" arraySize="1">
+          <value>MissionPreparationWindowFactory</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x064E1190" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x02D7CD40</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

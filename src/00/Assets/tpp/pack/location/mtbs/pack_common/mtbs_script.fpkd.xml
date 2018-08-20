@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mtbs_script.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/script/location/mtbs/mtbs_item.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mtbs/mtbs_helicopter.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mtbs/mtbs_enemy.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mtbs/mtbs_cluster.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mtbs/mtbs_baseTelop.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mtbs/mtbs.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

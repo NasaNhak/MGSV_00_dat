@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="o50055_area.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/motion/mtar/player2/player2_online.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/player2/player2_pipe.mtar" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn1000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn5000.rdf" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_marker_mbmission/UI_hud_marker_mbmission_goal.uilb" />
+    <Entry FilePath="/Assets/tpp/chara/dds/Scenes/dds5_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/olm/Scenes/olm0_enmy1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/dds/Scenes/dds5_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/dds/Scenes/dds5_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_marker_mbmission/Scenes/UI_hud_marker_mbmission_goal.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_marker_mbmission/Scenes/UI_hd_mrkr_mbmsn_gl_loop_1_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_marker_mbmission/Scenes/UI_hd_mrkr_mbmsn_gl_loop_3_s.uia" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/tppEnemy_Male.ladb" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/uth/uth_v02_fv2.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/online/o50050/o50050_additional.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

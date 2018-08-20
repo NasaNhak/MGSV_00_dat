@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="pl_rcvr_hg03.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/motion/mtar/player2/Receiver/pl_rcvr_hg03.mtar" />
+  </Entries>
+  <References />
+</ArchiveFile>

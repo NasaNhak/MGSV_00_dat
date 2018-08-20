@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mis_com_fob_hostage.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/chara/npc/tpp_hostage2_mtbs.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/common/mis_com_fob_hostage.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/chara/prs/pdd5_main0_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld06_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld03_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld01_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/parts/chara/prs/prs_defence_target.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcManTargetPushDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/human_def.phsd" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/ene0_v01.ph" />
+    <Entry FilePath="/Assets/tpp/chara/prs/Fox_files/prs0_main0_def.sim" />
+    <Entry FilePath="/Assets/tpp/motion/facial_setting_data/tppEnemy.fsd" />
+  </Entries>
+  <References />
+</ArchiveFile>

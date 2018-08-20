@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10010_l01.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/boot/s10010_subtitles_boot.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/SetupAsset/EmblemBlenderSmall.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/demo_keyhelp.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/chapter_telop.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/two_player2_instances.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/player2_cypr_bed_rail_motion.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/npc/tpp_ishmael2.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sequence.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_radio.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_l01_route.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_l01_npc.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_l01_item.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_l01_effect.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/chara/wss/wss0_main0_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/parts/chara/ish/ish0_main0_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_l01_FxLocators.vfxlb" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/dust/fx_tpp_dstwhtviw01_s2VD.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfirishwst01_s0LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfirisharm01_s0LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld06_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld03_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld01_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetPushDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetGrazeNmlDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetGrazeCovDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/human_def.phsd" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/ene0_v01.ph" />
+    <Entry FilePath="/Assets/tpp/chara/wss/Fox_files/wss0_repel_glove.sim" />
+    <Entry FilePath="/Assets/tpp/chara/wss/Fox_files/wss0_main0_def_sim.sim" />
+    <Entry FilePath="/Assets/tpp/chara/ish/FOX_files/ish0_main0_def.sim" />
+    <Entry FilePath="/Assets/tpp/motion/facial_setting_data/tppPlayer.fsd" />
+    <Entry FilePath="/Assets/tpp/motion/facial_setting_data/tppEnemy.fsd" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_s10010.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_s10010.sdf" />
+    <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/cypr/cypr_player_volgin_ride.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/cypr/cypr_player_rail.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/cypr/cypr_player_bed_and_corridor.lua" />
+    <Entry FilePath="/Assets/tpp/level_asset/trap/exec/TppTrapExecVolginSetParams.lua" />
+    <Entry FilePath="/Assets/tpp/level_asset/trap/exec/TppTrapExecVolginCharge.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sequence.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_score.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_radio.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_enemy.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_demo.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

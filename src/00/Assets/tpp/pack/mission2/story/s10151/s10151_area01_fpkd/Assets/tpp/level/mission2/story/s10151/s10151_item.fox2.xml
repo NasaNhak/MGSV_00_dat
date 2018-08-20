@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="GameObject" super="" version="2" />
+    <class name="TppVehicle2Parameter" super="" version="6" />
+    <class name="GameObjectLocator" super="" version="2" />
+    <class name="TransformEntity" super="" version="0" />
+    <class name="TppVehicle2LocatorParameter" super="" version="2" />
+    <class name="TppVehicle2BodyData" super="" version="3" />
+    <class name="TppVehicle2WeaponParameter" super="" version="2" />
+    <class name="SoundPackage" super="" version="1" />
+    <class name="UiGraphEntry" super="" version="1" />
+    <class name="UiInstanceData" super="" version="1" />
+    <class name="TppVehicle2AttachmentData" super="" version="1" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x055DC170" unknown1="232" unknown2="47624">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="21">
+          <value key="TppVehicleGameObject">0x055DC020</value>
+          <value key="vehs_sahelan_tank_0000">0x058F7F60</value>
+          <value key="vehs_sahelan_tank_0002">0x058F8660</value>
+          <value key="vehs_sahelan_wav_0000">0x055DB8B0</value>
+          <value key="vehs_sahelan_wav_0001">0x058FB300</value>
+          <value key="vehs_sahelan_wav_0002">0x058FB530</value>
+          <value key="vehs_sahelan_tank_0001">0x058FB6F0</value>
+          <value key="veh_bd_east_tnk0000|veh_bd_east_tnk">0x058FBE60</value>
+          <value key="veh_bd_east_tnk0000|SoundPackage">0x058FBFB0</value>
+          <value key="veh_bd_east_tnk0000|sight_vhcl_east_tnk|UiGraphEntry0000">0x058FC2C0</value>
+          <value key="veh_bd_east_tnk0000|sight_vhcl_east_tnk|UiInstanceData0000">0x058FC330</value>
+          <value key="veh_bd_east_wav0000|veh_bd_east_wav">0x058FC250</value>
+          <value key="veh_bd_east_wav0000|SoundPackage">0x058FC410</value>
+          <value key="veh_bd_east_wav0000|sight_vhcl_east_wav|UiGraphEntry0000">0x058FC720</value>
+          <value key="veh_bd_east_wav0000|sight_vhcl_east_wav|UiInstanceData0000">0x058FC790</value>
+          <value key="veh_bd_east_trc0000|veh_bd_east_trc">0x058FC6B0</value>
+          <value key="veh_bd_east_trc0000|SoundPackage">0x058FC800</value>
+          <value key="veh_at_east_wav_rocket0000|veh_at_east_wav_rocket">0x058FC870</value>
+          <value key="veh_at_east_wav_rocket0000|sight_vhcl_east_wav_rocket|UiGraphEntry0000">0x058FCC60</value>
+          <value key="veh_at_east_wav_rocket0000|sight_vhcl_east_wav_rocket|UiInstanceData0000">0x058FCCD0</value>
+          <value key="TexturePackLoadConditioner0000">0x06C34A00</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObject" classVersion="2" addr="0x055DC020" unknown1="88" unknown2="47626">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicleGameObject</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="totalCount" type="uint32" container="StaticArray" arraySize="1">
+          <value>6</value>
+        </property>
+        <property name="realizedCount" type="uint32" container="StaticArray" arraySize="1">
+          <value>4</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x055DC640</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2Parameter" classVersion="6" addr="0x055DC640" unknown1="32" unknown2="47628">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC020</value>
+        </property>
+        <property name="maxBodyTypeCount" type="uint8" container="StaticArray" arraySize="1">
+          <value>3</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x058F7F60" unknown1="272" unknown2="47647">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>vehs_sahelan_tank_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058F7CC0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058F80B0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x058F7CC0" unknown1="80" unknown2="47650">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058F7F60</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.279384" z="0" w="0.960179" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-596.4204" y="435.644165" z="-879.6531" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2LocatorParameter" classVersion="2" addr="0x058F80B0" unknown1="28" unknown2="47654">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058F7F60</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x058F8660" unknown1="272" unknown2="47656">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>vehs_sahelan_tank_0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058F8A50</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058F8EB0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x058F8A50" unknown1="80" unknown2="47659">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058F8660</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0.021526" y="0.739548" z="0.023677" w="-0.672342" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-393.824524" y="491.9918" z="-1171.78943" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2LocatorParameter" classVersion="2" addr="0x058F8EB0" unknown1="28" unknown2="47665">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058F8660</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x055DB8B0" unknown1="272" unknown2="47692">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>vehs_sahelan_wav_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x055DB760</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB290</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x055DB760" unknown1="80" unknown2="47695">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DB8B0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0.94331" z="0" w="-0.33191" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-395.2206" y="491.017761" z="-1131.69055" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2LocatorParameter" classVersion="2" addr="0x058FB290" unknown1="28" unknown2="47701">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DB8B0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x058FB300" unknown1="272" unknown2="47703">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>vehs_sahelan_wav_0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB370</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB4C0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x058FB370" unknown1="80" unknown2="47706">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FB300</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.988448" z="0" w="-0.151557" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-502.646637" y="450.474457" z="-893.000549" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2LocatorParameter" classVersion="2" addr="0x058FB4C0" unknown1="28" unknown2="47712">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FB300</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x058FB530" unknown1="272" unknown2="47714">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>vehs_sahelan_wav_0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB5A0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB680</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x058FB5A0" unknown1="80" unknown2="47717">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FB530</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0.67268" z="0" w="0.739931" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-706.728943" y="420.016571" z="-876.583862" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2LocatorParameter" classVersion="2" addr="0x058FB680" unknown1="28" unknown2="47721">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FB530</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x058FB6F0" unknown1="272" unknown2="47723">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>vehs_sahelan_tank_0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB760</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppVehicle2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x058FB8B0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x058FB760" unknown1="80" unknown2="47726">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FB6F0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0.464471" z="0" w="-0.885587" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-606.7144" y="465.5824" z="-976.4222" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2LocatorParameter" classVersion="2" addr="0x058FB8B0" unknown1="28" unknown2="47732">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FB6F0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2BodyData" classVersion="3" addr="0x058FBE60" unknown1="128" unknown2="547300">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_tnk0000|veh_bd_east_tnk</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="vehicleTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>8</value>
+        </property>
+        <property name="proxyVehicleTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>8</value>
+        </property>
+        <property name="bodyImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>5</value>
+        </property>
+        <property name="partsFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts</value>
+        </property>
+        <property name="bodyInstanceCount" type="uint8" container="StaticArray" arraySize="1">
+          <value>3</value>
+        </property>
+        <property name="weaponParams" type="EntityPtr" container="DynamicArray" arraySize="2">
+          <value>0x058FBED0</value>
+          <value>0x058FBF40</value>
+        </property>
+        <property name="fovaFiles" type="FilePtr" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2WeaponParameter" classVersion="2" addr="0x058FBED0" unknown1="128" unknown2="555682">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FBE60</value>
+        </property>
+        <property name="attackId" type="String" container="StaticArray" arraySize="1">
+          <value>ATK_Tankgun_125mmSmoothBoreGun</value>
+        </property>
+        <property name="equipId" type="String" container="StaticArray" arraySize="1">
+          <value>EQP_BL_Tankgun_125mmSmoothBoreGun</value>
+        </property>
+        <property name="bulletId" type="String" container="StaticArray" arraySize="1">
+          <value>BL_Tankgun_125mmSmoothBoreGun</value>
+        </property>
+        <property name="weaponImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="fireInterval" type="float" container="StaticArray" arraySize="1">
+          <value>5</value>
+        </property>
+        <property name="weaponFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="ammoFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="ownerCnpName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="weaponBoneName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="turretBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_001_TURRET</value>
+        </property>
+        <property name="barrelBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_002_BARREL</value>
+        </property>
+        <property name="minPitch" type="float" container="StaticArray" arraySize="1">
+          <value>-0.087266</value>
+        </property>
+        <property name="maxPitch" type="float" container="StaticArray" arraySize="1">
+          <value>0.785398</value>
+        </property>
+        <property name="rotSpeed" type="float" container="StaticArray" arraySize="1">
+          <value>0.392699</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2WeaponParameter" classVersion="2" addr="0x058FBF40" unknown1="128" unknown2="555684">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FBE60</value>
+        </property>
+        <property name="attackId" type="String" container="StaticArray" arraySize="1">
+          <value>ATK_Tankgun_12_7mmHeavyMachineGun_East</value>
+        </property>
+        <property name="equipId" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="bulletId" type="String" container="StaticArray" arraySize="1">
+          <value>BL_Turret</value>
+        </property>
+        <property name="weaponImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>4</value>
+        </property>
+        <property name="fireInterval" type="float" container="StaticArray" arraySize="1">
+          <value>0.125</value>
+        </property>
+        <property name="weaponFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/weapon/hew/hw03_main0_def_sav0.parts</value>
+        </property>
+        <property name="ammoFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="ownerCnpName" type="String" container="StaticArray" arraySize="1">
+          <value>CNP_awp_a</value>
+        </property>
+        <property name="weaponBoneName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="turretBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_010_KYUPOL1</value>
+        </property>
+        <property name="barrelBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_010_GUN</value>
+        </property>
+        <property name="minPitch" type="float" container="StaticArray" arraySize="1">
+          <value>-0.261799</value>
+        </property>
+        <property name="maxPitch" type="float" container="StaticArray" arraySize="1">
+          <value>1.047198</value>
+        </property>
+        <property name="rotSpeed" type="float" container="StaticArray" arraySize="1">
+          <value>2.094395</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SoundPackage" classVersion="1" addr="0x058FBFB0" unknown1="96" unknown2="557455">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_tnk0000|SoundPackage</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="soundDataFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/sound/package/vehicle_mbt_media.sdf</value>
+        </property>
+        <property name="syncLoad" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiGraphEntry" classVersion="1" addr="0x058FC2C0" unknown1="96" unknown2="3148">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_tnk0000|sight_vhcl_east_tnk|UiGraphEntry0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="files" type="FilePtr" container="DynamicArray" />
+        <property name="rawFiles" type="FilePtr" container="DynamicArray" arraySize="3">
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_mbt0_a.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_vhcl_def_FPS_bs.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_common.uilb</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiInstanceData" classVersion="1" addr="0x058FC330" unknown1="120" unknown2="3150">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_tnk0000|sight_vhcl_east_tnk|UiInstanceData0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="createWindowParams" type="FilePtr" container="StringMap" />
+        <property name="windowFactoryName" type="String" container="StaticArray" arraySize="1">
+          <value>SightVhclMbt0_aFactory</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2BodyData" classVersion="3" addr="0x058FC250" unknown1="128" unknown2="366346">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_wav0000|veh_bd_east_wav</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="vehicleTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>6</value>
+        </property>
+        <property name="proxyVehicleTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>6</value>
+        </property>
+        <property name="bodyImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>3</value>
+        </property>
+        <property name="partsFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/sav/sav0_main0_def.parts</value>
+        </property>
+        <property name="bodyInstanceCount" type="uint8" container="StaticArray" arraySize="1">
+          <value>3</value>
+        </property>
+        <property name="weaponParams" type="EntityPtr" container="DynamicArray" arraySize="1">
+          <value>0x058FC3A0</value>
+        </property>
+        <property name="fovaFiles" type="FilePtr" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2WeaponParameter" classVersion="2" addr="0x058FC3A0" unknown1="128" unknown2="367411">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FC250</value>
+        </property>
+        <property name="attackId" type="String" container="StaticArray" arraySize="1">
+          <value>ATK_Tankgun_30mmAutoCannon</value>
+        </property>
+        <property name="equipId" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="bulletId" type="String" container="StaticArray" arraySize="1">
+          <value>BL_Tankgun_30mmAutoCannon</value>
+        </property>
+        <property name="weaponImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="fireInterval" type="float" container="StaticArray" arraySize="1">
+          <value>0.333333</value>
+        </property>
+        <property name="weaponFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="ammoFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="ownerCnpName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="weaponBoneName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="turretBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_001_TURRET</value>
+        </property>
+        <property name="barrelBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_002_BARREL</value>
+        </property>
+        <property name="minPitch" type="float" container="StaticArray" arraySize="1">
+          <value>-0.20944</value>
+        </property>
+        <property name="maxPitch" type="float" container="StaticArray" arraySize="1">
+          <value>1.745329</value>
+        </property>
+        <property name="rotSpeed" type="float" container="StaticArray" arraySize="1">
+          <value>0.785398</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SoundPackage" classVersion="1" addr="0x058FC410" unknown1="96" unknown2="367413">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_wav0000|SoundPackage</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="soundDataFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/sound/package/vehicle_sav_media.sdf</value>
+        </property>
+        <property name="syncLoad" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiGraphEntry" classVersion="1" addr="0x058FC720" unknown1="96" unknown2="3058">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_wav0000|sight_vhcl_east_wav|UiGraphEntry0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="files" type="FilePtr" container="DynamicArray" />
+        <property name="rawFiles" type="FilePtr" container="DynamicArray" arraySize="3">
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_sav0_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_vhcl_def_FPS_bs.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_common.uilb</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiInstanceData" classVersion="1" addr="0x058FC790" unknown1="120" unknown2="3060">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_wav0000|sight_vhcl_east_wav|UiInstanceData0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="createWindowParams" type="FilePtr" container="StringMap" />
+        <property name="windowFactoryName" type="String" container="StaticArray" arraySize="1">
+          <value>SightVhclSav0_bFactory</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2BodyData" classVersion="3" addr="0x058FC6B0" unknown1="128" unknown2="12107">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_trc0000|veh_bd_east_trc</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="vehicleTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>4</value>
+        </property>
+        <property name="proxyVehicleTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>4</value>
+        </property>
+        <property name="bodyImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="partsFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/smt/smt0_main0_def.parts</value>
+        </property>
+        <property name="bodyInstanceCount" type="uint8" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="weaponParams" type="EntityPtr" container="DynamicArray" />
+        <property name="fovaFiles" type="FilePtr" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SoundPackage" classVersion="1" addr="0x058FC800" unknown1="96" unknown2="22010">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_bd_east_trc0000|SoundPackage</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="soundDataFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/sound/package/vehicle_smt_media.sdf</value>
+        </property>
+        <property name="syncLoad" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2AttachmentData" classVersion="1" addr="0x058FC870" unknown1="120" unknown2="351793">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_at_east_wav_rocket0000|veh_at_east_wav_rocket</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="vehicleTypeCode" type="uint8" container="StaticArray" arraySize="1">
+          <value>97</value>
+        </property>
+        <property name="attachmentImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>4</value>
+        </property>
+        <property name="attachmentFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/sav/sav0_wepn0_def.parts</value>
+        </property>
+        <property name="attachmentInstanceCount" type="uint8" container="StaticArray" arraySize="1">
+          <value>3</value>
+        </property>
+        <property name="bodyCnpName" type="String" container="StaticArray" arraySize="1">
+          <value>CNP_weapon</value>
+        </property>
+        <property name="attachmentBoneName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="weaponParams" type="EntityPtr" container="DynamicArray" arraySize="1">
+          <value>0x058FC8E0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVehicle2WeaponParameter" classVersion="2" addr="0x058FC8E0" unknown1="128" unknown2="351839">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x058FC870</value>
+        </property>
+        <property name="attackId" type="String" container="StaticArray" arraySize="1">
+          <value>ATK_Tankgun_82mmRocketPoweredProjectile</value>
+        </property>
+        <property name="equipId" type="String" container="StaticArray" arraySize="1">
+          <value>EQP_BL_Tankgun_82mmRocketPoweredProjectile</value>
+        </property>
+        <property name="bulletId" type="String" container="StaticArray" arraySize="1">
+          <value>BL_Tankgun_82mmRocketPoweredProjectile</value>
+        </property>
+        <property name="weaponImplTypeIndex" type="uint8" container="StaticArray" arraySize="1">
+          <value>3</value>
+        </property>
+        <property name="fireInterval" type="float" container="StaticArray" arraySize="1">
+          <value>15</value>
+        </property>
+        <property name="weaponFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="ammoFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/sav/sav0_ammo0_def.parts</value>
+        </property>
+        <property name="ownerCnpName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="weaponBoneName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="turretBoneName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="barrelBoneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_001_FRAME</value>
+        </property>
+        <property name="minPitch" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="maxPitch" type="float" container="StaticArray" arraySize="1">
+          <value>1.570796</value>
+        </property>
+        <property name="rotSpeed" type="float" container="StaticArray" arraySize="1">
+          <value>0.392699</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiGraphEntry" classVersion="1" addr="0x058FCC60" unknown1="96" unknown2="2963">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_at_east_wav_rocket0000|sight_vhcl_east_wav_rocket|UiGraphEntry0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="files" type="FilePtr" container="DynamicArray" />
+        <property name="rawFiles" type="FilePtr" container="DynamicArray" arraySize="3">
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_sav0_wepn0.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_vhcl_def_FPS_bs.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_common.uilb</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiInstanceData" classVersion="1" addr="0x058FCCD0" unknown1="120" unknown2="2965">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>veh_at_east_wav_rocket0000|sight_vhcl_east_wav_rocket|UiInstanceData0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="createWindowParams" type="FilePtr" container="StringMap" />
+        <property name="windowFactoryName" type="String" container="StaticArray" arraySize="1">
+          <value>SightVhclSav0_wepn0Factory</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06C34A00" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x055DC170</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

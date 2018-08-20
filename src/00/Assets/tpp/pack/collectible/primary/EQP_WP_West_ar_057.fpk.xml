@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="EQP_WP_West_ar_057.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/motion/mtar/equip/chimera/assemble/ar00_asm.mtar" />
+    <Entry FilePath="/Assets/tpp/weapon/amo/Scenes/am00_main1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/ar00_main0_aw9.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/ar00_main0_aw9.fcnp" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

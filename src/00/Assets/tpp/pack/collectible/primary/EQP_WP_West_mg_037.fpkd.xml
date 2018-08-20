@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="EQP_WP_West_mg_037.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/keep_in_fpkl/EQP_WP_West_mg_037_keep.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/assemble/mag/mg01_main0_aw5_v00.parts" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/amo/am06_main2_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/PhysicsParameter/assault.phsd" />
+  </Entries>
+  <References />
+</ArchiveFile>

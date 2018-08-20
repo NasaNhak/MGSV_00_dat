@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="lang_default_data_jpn.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/lang/ui/mb_staff_name.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_announce_log.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_cassette.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_cast_staff.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_common.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_dialog.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_emblem.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_gmp_mission.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_hud.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_item.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_mb.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_menu.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_mission.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_quest.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_record.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_tips.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_tutorial.jpn.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_weapon.jpn.lng2" />
+  </Entries>
+  <References />
+</ArchiveFile>

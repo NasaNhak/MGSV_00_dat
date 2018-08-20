@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="GeoxTargetDesc" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x040C5F70" unknown1="232" unknown2="13185">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="1">
+          <value key="GeoxTargetDesc0000">0x040CFA50</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GeoxTargetDesc" classVersion="0" addr="0x040CFA50" unknown1="264" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>GeoxTargetDesc0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x040C5F70</value>
+        </property>
+        <property name="posArray" type="Vector3" container="DynamicArray" arraySize="11">
+          <value x="0" y="0.153" z="0" w="0" />
+          <value x="0" y="0.0608" z="0.021415" w="0" />
+          <value x="0.12" y="0" z="-0.01" w="0" />
+          <value x="0.12" y="0" z="0" w="0" />
+          <value x="0" y="-0.25" z="-0.025" w="0" />
+          <value x="0" y="-0.25" z="-0.025" w="0" />
+          <value x="0" y="-0.25" z="-0.025" w="0" />
+          <value x="-0.12" y="0" z="0" w="0" />
+          <value x="-0.1" y="0" z="-0.01" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="-0.25" z="-0.025" w="0" />
+        </property>
+        <property name="scaleArray" type="Vector3" container="DynamicArray" arraySize="11">
+          <value x="0.45" y="0.45" z="0.45" w="0" />
+          <value x="0.223168" y="0.223168" z="0.223168" w="0" />
+          <value x="0.5" y="0.3" z="0.18" w="0" />
+          <value x="0.5" y="0.6" z="0.12" w="0" />
+          <value x="0.5" y="0.5" z="0.3" w="0" />
+          <value x="0.5" y="0.5" z="0.3" w="0" />
+          <value x="0.5" y="0.5" z="0.2" w="0" />
+          <value x="0.5" y="0.6" z="0.12" w="0" />
+          <value x="0.5" y="0.3" z="0.18" w="0" />
+          <value x="0.5" y="0.5" z="0.5" w="0" />
+          <value x="0.5" y="0.5" z="0.2" w="0" />
+        </property>
+        <property name="rotArray" type="Quat" container="DynamicArray" arraySize="11">
+          <value x="0.412803" y="0.48722" z="-0.587144" w="0.497466" />
+          <value x="0.412803" y="0.48722" z="-0.587144" w="0.497466" />
+          <value x="0.198481" y="0.188406" z="-0.682099" w="0.678122" />
+          <value x="0.378766" y="0.370057" z="-0.596822" w="0.602825" />
+          <value x="0" y="0" z="0" w="1" />
+          <value x="0" y="0" z="0" w="1" />
+          <value x="0" y="0" z="0" w="1" />
+          <value x="0.099672" y="-0.093008" z="0.701185" w="0.699824" />
+          <value x="0.167502" y="0.183883" z="-0.692175" w="0.677513" />
+          <value x="0" y="0" z="0" w="1" />
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="primTypeArray" type="uint32" container="DynamicArray" arraySize="11">
+          <value>0</value>
+          <value>0</value>
+          <value>2</value>
+          <value>2</value>
+          <value>2</value>
+          <value>2</value>
+          <value>2</value>
+          <value>2</value>
+          <value>2</value>
+          <value>0</value>
+          <value>2</value>
+        </property>
+        <property name="systemAttributeArray" type="uint64" container="DynamicArray" arraySize="11">
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+          <value>2097152</value>
+        </property>
+        <property name="throughValueArray" type="uint32" container="DynamicArray" arraySize="11">
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+          <value>150</value>
+        </property>
+        <property name="flagArray" type="uint32" container="DynamicArray" arraySize="11">
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+          <value>1</value>
+        </property>
+        <property name="categoryTag" type="String" container="StaticArray" arraySize="1">
+          <value>POWER</value>
+        </property>
+        <property name="nameArray" type="String" container="DynamicArray" arraySize="11">
+          <value>Chest</value>
+          <value>Head</value>
+          <value>LeftUpperArm</value>
+          <value>LeftForeArm</value>
+          <value>LeftThigh</value>
+          <value>RightThigh</value>
+          <value>LeftLeg</value>
+          <value>RightForeArm</value>
+          <value>RightUpperArm</value>
+          <value>Spine</value>
+          <value>RightLeg</value>
+        </property>
+        <property name="attachSkeletonArray" type="String" container="DynamicArray" arraySize="11">
+          <value>SKL_002_CHEST</value>
+          <value>SKL_004_HEAD</value>
+          <value>SKL_011_LUARM</value>
+          <value>SKL_012_LFARM</value>
+          <value>SKL_030_LTHIGH</value>
+          <value>SKL_040_RTHIGH</value>
+          <value>SKL_031_LLEG</value>
+          <value>SKL_022_RFARM</value>
+          <value>SKL_021_RUARM</value>
+          <value>SKL_001_SPINE</value>
+          <value>SKL_041_RLEG</value>
+        </property>
+        <property name="groupArray" type="String" container="DynamicArray" arraySize="11">
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+          <value>FRIEND</value>
+        </property>
+        <property name="objIndexForgroupTagArray" type="uint32" container="DynamicArray" arraySize="11">
+          <value>0</value>
+          <value>1</value>
+          <value>2</value>
+          <value>3</value>
+          <value>4</value>
+          <value>5</value>
+          <value>6</value>
+          <value>7</value>
+          <value>8</value>
+          <value>9</value>
+          <value>10</value>
+        </property>
+        <property name="applicationDataLinkArray" type="EntityLink" container="DynamicArray" arraySize="11">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

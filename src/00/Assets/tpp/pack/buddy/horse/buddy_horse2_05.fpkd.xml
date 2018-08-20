@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="buddy_horse2_05.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/chara/buddy/horse/buddy_horse2_05.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/chara/hrs/hrs5_main1_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrhrssndstm01_s2LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrhrsbrt01_s0.vfx" />
+    <Entry FilePath="/Assets/tpp/parts/chara/hrs/hrs0_targetoffensebody.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/hrs/hrs0_targetdefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/hrs/hrs0_targetbushoffense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/hrs/hrs0_pushoffense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/hrs/hrs0_pushdefense.tgt" />
+    <Entry FilePath="/Assets/tpp/chara/hrs/Fox_files/hrs0_main0_stirrup.sim" />
+    <Entry FilePath="/Assets/tpp/chara/hrs/Fox_files/hrs0_main0_def_s01.sim" />
+    <Entry FilePath="/Assets/tpp/chara/hrs/Fox_files/hrs0_main0_brindle.sim" />
+  </Entries>
+  <References />
+</ArchiveFile>

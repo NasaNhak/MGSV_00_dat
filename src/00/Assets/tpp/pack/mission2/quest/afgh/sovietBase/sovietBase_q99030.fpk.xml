@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="sovietBase_q99030.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/pack/mission2/quest/afgh/sovietBase/sovietBase_q99030.frt" />
+    <Entry FilePath="/Assets/tpp/level/mission2/quest/afgh/sovietBase/sovietBase_q99030_fox2_0_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/level/mission2/quest/afgh/sovietBase/sovietBase_q99030_fox2_0_win.gpfp" />
+    <Entry FilePath="/Assets/tpp/demo/si_project/p31_060010/fani/p31_060010_000_final/p31_060010_000_final.sand" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/hangar/afgh_hngr002/scenes/afgh_hngr002_wndw002.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/hangar/afgh_hngr002/scenes/afgh_hngr002_wndw003.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/hangar/afgh_hngr002/scenes/afgh_hngr002_wndw004.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_foto0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_foto1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_memo0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_memo1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_wire0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/aip/Scenes/aip0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_01.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_02.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_03.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_04.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_05.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_06.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto0_07.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_08.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_09.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_10.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_11.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_12.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_13.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_14.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_15.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_16.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_17.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_18.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_19.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_20.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_21.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_22.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_foto1_23.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_memo_00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_memo_01.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_memo_02.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_memo_03.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_memo_04.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/aip/aip_memo_05.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/location/afgh/pack_common/afgh_common.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/free/f30010/f30010.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

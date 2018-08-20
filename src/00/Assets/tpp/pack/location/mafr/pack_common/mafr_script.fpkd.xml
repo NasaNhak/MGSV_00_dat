@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mafr_script.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_travelPlans.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_siren.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_routeSets.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_gimmick.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_cpGroups.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_combat.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_checkPoint.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_baseTelop.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_base.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr_animal.lua" />
+    <Entry FilePath="/Assets/tpp/script/location/mafr/mafr.lua" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_common/mafr_luxury_block_list.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

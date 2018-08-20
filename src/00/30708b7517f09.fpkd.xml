@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="30708b7517f09.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/result_telop.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/fob_result_telop.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/common/result_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/common/result_radio.fox2" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_result.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_result_common.sdf" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.eng.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.fre.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.ger.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.ita.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.jpn.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.por.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.rus.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_result.spa.lng" />
+  </Entries>
+  <References />
+</ArchiveFile>

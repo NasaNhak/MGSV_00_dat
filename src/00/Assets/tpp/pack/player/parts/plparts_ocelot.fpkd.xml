@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="plparts_ocelot.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/pl_parts_ocelot.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/chara/ooc/ooc0_main1_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkchrbrt01_s0GM.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/item/fx_tpp_itmmskwng01_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlgt24_m1LD.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdstwst01_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthnd01_s0LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivspl02_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivspl01_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivsmk01_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlnslgt35_s2VG.vfxlf" />
+    <Entry FilePath="/Assets/tpp/parts/chara/sna/sna0_targetpushoffense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/sna/sna0_targetdefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/sna/sna0_targetcqcdefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/sna/sna0_targetbushoffense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/sna/sna0_v01.ph" />
+    <Entry FilePath="/Assets/tpp/chara/sna/Fox_files/sna0_broken_arm_r.sim" />
+    <Entry FilePath="/Assets/tpp/chara/ooc/Fox_files/ooc0_main1_asr.sim" />
+    <Entry FilePath="/Assets/tpp/chara/oce/Fox_files/oce0_main0_hair.sim" />
+    <Entry FilePath="/Assets/tpp/chara/oce/Fox_files/oce0_main0_def.sim" />
+    <Entry FilePath="/Assets/tpp/motion/facial_setting_data/tppPlayer.fsd" />
+  </Entries>
+  <References />
+</ArchiveFile>

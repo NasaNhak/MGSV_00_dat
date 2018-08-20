@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="SoundPackage" super="" version="1" />
+    <class name="TppMusicParameter" super="" version="9" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x04E26C90" unknown1="232" unknown2="30520">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
+          <value key="bgm_s10010_sdf">0x04E26AD0</value>
+          <value key="bgm_s10010_phase">0x04E26440</value>
+          <value key="TexturePackLoadConditioner0000">0x054B8970</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SoundPackage" classVersion="1" addr="0x04E26AD0" unknown1="96" unknown2="30522">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>bgm_s10010_sdf</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04E26C90</value>
+        </property>
+        <property name="soundDataFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/sound/package/bgm_s10010.sdf</value>
+        </property>
+        <property name="syncLoad" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppMusicParameter" classVersion="9" addr="0x04E26440" unknown1="144" unknown2="30524">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>bgm_s10010_phase</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04E26C90</value>
+        </property>
+        <property name="tag" type="String" container="StaticArray" arraySize="1">
+          <value>bgm_hospital_lobby</value>
+        </property>
+        <property name="playEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Play_bgm_s10010_phase</value>
+        </property>
+        <property name="daySwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_Switch_bgm_phase_time_day</value>
+        </property>
+        <property name="nightSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_Switch_bgm_phase_time_day</value>
+        </property>
+        <property name="dangerEasySwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_al_es</value>
+        </property>
+        <property name="dangerOuterSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_al_es</value>
+        </property>
+        <property name="dangerHardSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_al_es</value>
+        </property>
+        <property name="dangerEasyLostSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_lost</value>
+        </property>
+        <property name="dangerOuterLostSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_lost</value>
+        </property>
+        <property name="dangerHardLostSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_lost</value>
+        </property>
+        <property name="dangerEvasionSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_lost</value>
+        </property>
+        <property name="dangerStrongSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_al_es</value>
+        </property>
+        <property name="safetyReflexSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_Switch_bgm_phase_reflex_on</value>
+        </property>
+        <property name="safetyNeutralToSneakSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Play_bgm_afgh_neutral_to_sn</value>
+        </property>
+        <property name="safetySneakSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_sn</value>
+        </property>
+        <property name="safetyCautionSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_sn</value>
+        </property>
+        <property name="safetyNoticeSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_sn</value>
+        </property>
+        <property name="safetyCautionNoticeSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_sn</value>
+        </property>
+        <property name="safetyAlertToCautionSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_sn</value>
+        </property>
+        <property name="neutralSwitchEvent" type="String" container="StaticArray" arraySize="1">
+          <value>Set_State_bgm_phase_neutral</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x054B8970" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04E26C90</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

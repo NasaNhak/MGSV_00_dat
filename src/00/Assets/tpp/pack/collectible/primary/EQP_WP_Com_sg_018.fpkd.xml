@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="EQP_WP_Com_sg_018.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/sight/sight_st03_0.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/keep_in_fpkl/EQP_WP_Com_sg_018_keep.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/assemble/shg/sg04_main0_aw4_v00.parts" />
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/PhysicsParameter/assault.phsd" />
+  </Entries>
+  <References />
+</ArchiveFile>

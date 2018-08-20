@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="su00_main1_def_v00.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/weapon/sup/Scenes/su00_main1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/sup/Scenes/su00_main1_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/sup/su00_main1_def_c01.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

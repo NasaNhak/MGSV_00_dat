@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mis_com_fob_hostage.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/rig/frig/human_finger.frig" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/hostage2/Hostage2_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/hostage2/Hostage2_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/chara/dds/Scenes/dds5_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/dds/Scenes/dds5_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/dds/Scenes/dds5_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/ene0.ladb" />
+  </Entries>
+  <References />
+</ArchiveFile>

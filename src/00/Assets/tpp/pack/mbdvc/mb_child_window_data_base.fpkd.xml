@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mb_child_window_data_base.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/MotherBaseManagement/ui_mbm_data_base_entry.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_tablist_entry.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_list_entry.fox2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.eng.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.fre.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.ger.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.ita.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.jpn.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.por.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.rus.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_database.spa.lng" />
+  </Entries>
+  <References />
+</ArchiveFile>

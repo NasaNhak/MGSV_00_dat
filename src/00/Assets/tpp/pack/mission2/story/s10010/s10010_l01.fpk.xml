@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10010_l01.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/rig/frig/human_finger.frig" />
+    <Entry FilePath="/Assets/tpp/pack/mission2/story/s10010/s10010_l01.frt" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sequence_fox2_0_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/hostage2_mob/Hostage2Mob_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/cyprus/Soldier_ld.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/hostage2_mob/Hostage2Mob_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/ishmael2/Ishmael2_ld.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/player2/player2_cypr.mtar" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_s0010.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/speech_data_s10010_Ishmael.spch" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/speech_data_s10010_Mob.spch" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/speech_data_s10010_Ocelot.spch" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10010/s10010_sequence_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/demo_keyhelp/UI_demo_keyhelp.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_terop_chapter/UI_hud_terop_chapter.uilb" />
+    <Entry FilePath="/Assets/tpp/chara/ish/Scenes/ish0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wss/Scenes/wss0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/ish/Scenes/ish0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/wss/Scenes/wss0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/ish/Scenes/ish0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/chara/wss/Scenes/wss0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/demo_keyhelp/Scenes/UI_demo_keyhelp.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_chapter/Scenes/UI_hud_terop_chapter.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/demo_keyhelp/Scenes/UI_demo_keyhelp_active_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/demo_keyhelp/Scenes/UI_demo_keyhelp_active_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/demo_keyhelp/Scenes/UI_demo_keyhelp_loop_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/demo_keyhelp/Scenes/UI_demo_keyhelp_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/demo_keyhelp/Scenes/UI_demo_keyhelp_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_chapter/Scenes/UI_hud_terop_chpt_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_chapter/Scenes/UI_hud_terop_chpt_setout.uia" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/ish0.ladb" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/tppEnemy_Male.ladb" />
+  </Entries>
+  <References />
+</ArchiveFile>

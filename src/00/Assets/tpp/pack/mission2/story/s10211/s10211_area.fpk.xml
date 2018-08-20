@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10211_area.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/rig/frig/tpp_dog.frig" />
+    <Entry FilePath="/Assets/tpp/pack/mission2/story/s10211/s10211_area.frt" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10211/lba/ifb0_main0_def.lba" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/wolf/Wolf_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/eagle/Eagle_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/rat/TppRat_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/wolf/Wolf_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn1000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn7000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_s0211.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10211/speech_carry_s10211.spch" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/large/swamp/combat/mafr_swamp_combat_f01_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10211/s10211_sequence_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/chara/hgh/Scenes/hgh0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/jcl/Scenes/jcl0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/mte/Scenes/mte0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/documents/afgh_dcmt003/scenes/afgh_dcmt003_vrtn001.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/documents/afgh_dcmt003/scenes/afgh_dcmt003_vrtn002.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/documents/afgh_dcmt003/scenes/afgh_dcmt003_vrtn001.geom" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/documents/afgh_dcmt003/scenes/afgh_dcmt003_vrtn002.geom" />
+    <Entry FilePath="/Assets/tpp/chara/jcl/Scenes/jcl0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/jcl/Scenes/jcl0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/chara/mte/Scenes/mte0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/large/savannah/route/mafr_savannah_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/large/swamp/route/mafr_swamp_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_02_22/route/mafr_02_22_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_04_09/route/mafr_04_09_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_05_16/route/mafr_05_16_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_05_22/route/mafr_05_22_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_06_16/route/mafr_06_16_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_06_22/route/mafr_06_22_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_06_24/route/mafr_06_24_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_13_16/route/mafr_13_16_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_13_24/route/mafr_13_24_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/lrrp/mafr_16_24/route/mafr_16_24_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/outerBase/pfCampNorth/route/mafr_pfCampNorth_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/outerBase/savannahEast/route/mafr_savannahEast_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/outerBase/swampEast/route/mafr_swampEast_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_mission2/outerBase/swampWest/route/mafr_swampWest_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10211/s10211_route.frl" />
+    <Entry FilePath="/Assets/tpp/fova/chara/jcl/jcl0_v00_c00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/all/mfv_pfcl_c00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/uth/uth_v02_fv2.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_mafr.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_mafr_hostage.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/veh_mc_west_lv.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="lang_default_data_ita.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/lang/ui/mb_staff_name.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_announce_log.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_cassette.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_cast_staff.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_common.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_dialog.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_emblem.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_gmp_mission.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_hud.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_item.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_mb.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_menu.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_mission.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_quest.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_record.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_tips.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_tutorial.ita.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_weapon.ita.lng2" />
+  </Entries>
+  <References />
+</ArchiveFile>

@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="TppVfxFileLoader" super="" version="2" />
+    <class name="TppDirtyModelData" super="" version="0" />
+    <class name="TppTextureLoader" super="" version="1" />
+    <class name="TppModelMarkerFilterSettings" super="" version="0" />
+    <class name="TppDamageFilterExposure" super="" version="1" />
+    <class name="TppDamageFilterParam" super="" version="0" />
+    <class name="TransformEntity" super="" version="0" />
+    <class name="TppOutOfMissionRangeEffect" super="" version="2" />
+    <class name="TppFireLights" super="" version="0" />
+    <class name="TppGrenadeShock" super="" version="1" />
+    <class name="TppFirePropagationLights" super="" version="0" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x05DEAF10" unknown1="232" unknown2="73890">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="11">
+          <value key="TppVfxFileLoader0000">0x05DEAF80</value>
+          <value key="TppDirtyModelData0000">0x05DEAFF0</value>
+          <value key="TppTextureLoader0000">0x05DEB060</value>
+          <value key="TppModelMarkerFilterSettings0000">0x05DEB0D0</value>
+          <value key="TppDamageFilterExposure0000">0x05DEB140</value>
+          <value key="TppDamageFilterParam0000">0x05DEB220</value>
+          <value key="TppOutOfMissionRangeEffect0000">0x05DEB300</value>
+          <value key="TppFireLights0000">0x05DEB370</value>
+          <value key="TppGrenadeShock0000">0x05DEB3E0</value>
+          <value key="TppFirePropagationLights0000">0x05DEB450</value>
+          <value key="TexturePackLoadConditioner0000">0x03BF06A0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppVfxFileLoader" classVersion="2" addr="0x05DEAF80" unknown1="208" unknown2="73892">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppVfxFileLoader0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="vfxFiles" type="FilePtr" container="StringMap" arraySize="47">
+          <value key="fx_tpp_chrfotsplmud01_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplmud01_s0LG.vfx</value>
+          <value key="fx_tpp_chrfotsplmud02_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplmud02_s0LG.vfx</value>
+          <value key="fx_tpp_chrfotsplmud03_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplmud03_s0LG.vfx</value>
+          <value key="fx_tpp_chrfotsplrin01_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplrin01_s0LG.vfx</value>
+          <value key="fx_tpp_chrfotsplrin02_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplrin02_s0LG.vfx</value>
+          <value key="fx_tpp_chrfotsplrin03_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplrin03_s0LG.vfx</value>
+          <value key="fx_tpp_blddcl00_s1LG">/Assets/tpp/effect/vfx_data/blood/fx_tpp_blddcl00_s1LG.vfx</value>
+          <value key="fx_tpp_blddcl01_s1LG">/Assets/tpp/effect/vfx_data/blood/fx_tpp_blddcl01_s1LG.vfx</value>
+          <value key="fx_tpp_chrhitsmk01_s5MG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrhitsmk01_s5MG.vfx</value>
+          <value key="fx_tpp_hitbdywtr02_s1">/Assets/tpp/effect/vfx_data/hit/fx_tpp_hitbdywtr02_s1.vfx</value>
+          <value key="fx_tpp_hitbdy02_s1">/Assets/tpp/effect/vfx_data/hit/fx_tpp_hitbdy02_s1.vfx</value>
+          <value key="fx_tpp_splbld01_s1LG">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld01_s1LG.vfx</value>
+          <value key="fx_tpp_splbld06_s1">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld06_s1.vfx</value>
+          <value key="fx_tpp_splbld03_s1LG">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld03_s1LG.vfx</value>
+          <value key="fx_tpp_chrcigblr01_s2">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrcigblr01_s2.vfx</value>
+          <value key="fx_tpp_chrfardis01_s2">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfardis01_s2.vfx</value>
+          <value key="fx_tpp_smkchrbrt01_s0GM">/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkchrbrt01_s0GM.vfx</value>
+          <value key="fx_tpp_smkcig03_s0">/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkcig03_s0.vfx</value>
+          <value key="fx_tpp_hitbdy01_s0LG">/Assets/tpp/effect/vfx_data/hit/fx_tpp_hitbdy01_s0LG.vfx</value>
+          <value key="fx_tpp_chrcqcsmk01_s1MG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrcqcsmk01_s1MG.vfx</value>
+          <value key="fx_tpp_rctarmene01M_s0">/Assets/tpp/effect/vfx_data/ricochet/fx_tpp_rctarmene01M_s0.vfx</value>
+          <value key="fx_tpp_brkchrarmene01_s2">/Assets/tpp/effect/vfx_data/break/fx_tpp_brkchrarmene01_s2.vfx</value>
+          <value key="fx_tpp_fircom08e_s3">/Assets/tpp/effect/vfx_data/fire/fx_tpp_fircom08e_s3.vfx</value>
+          <value key="fx_tpp_chrdsthndspl03_s0">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthndspl03_s0.vfx</value>
+          <value key="fx_tpp_chrdsthnd11_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthnd11_s0LG.vfx</value>
+          <value key="fx_tpp_chrdsthnd03_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthnd03_s0LG.vfx</value>
+          <value key="fx_tpp_chrdsthnd02_s0">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthnd02_s0.vfx</value>
+          <value key="fx_tpp_chrdsthnd01_s0LG">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthnd01_s0LG.vfx</value>
+          <value key="fx_tpp_chrdivsmk01_s1">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivsmk01_s1.vfx</value>
+          <value key="fx_tpp_chrcqcspl01_s1">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrcqcspl01_s1.vfx</value>
+          <value key="fx_tpp_splwtr03_s0LD">/Assets/tpp/effect/vfx_data/splash/fx_tpp_splwtr03_s0LD.vfx</value>
+          <value key="fx_tpp_chrdsthndspl04_s0">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthndspl04_s0.vfx</value>
+          <value key="fx_tpp_flrlgt35eve_m1LD">/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlgt35eve_m1LD.vfx</value>
+          <value key="fx_tpp_itmboxblr01_s2">/Assets/tpp/effect/vfx_data/item/fx_tpp_itmboxblr01_s2.vfx</value>
+          <value key="fx_tpp_splbld06_s0FG">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld06_s0FG.vfx</value>
+          <value key="fx_tpp_dstbug04_s0">/Assets/tpp/effect/vfx_data/dust/fx_tpp_dstbug04_s0.vfx</value>
+          <value key="fx_tpp_chrdstflt01_s1">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdstflt01_s1.vfx</value>
+          <value key="fx_tpp_dstsolflt01_s3">/Assets/tpp/effect/vfx_data/dust/fx_tpp_dstsolflt01_s3.vfx</value>
+          <value key="fx_tpp_chrstnltb01_s2">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrstnltb01_s2.vfx</value>
+          <value key="fx_tpp_itmwrm02_s3">/Assets/tpp/effect/vfx_data/item/fx_tpp_itmwrm02_s3.vfx</value>
+          <value key="fx_tpp_chrfotsmk01m_s0">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsmk01m_s0.vfx</value>
+          <value key="fx_tpp_chrfotsplrin01m_s0">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplrin01m_s0.vfx</value>
+          <value key="fx_tpp_chrfotsplmud01m_s0">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsplmud01m_s0.vfx</value>
+          <value key="fx_tpp_firchr02_s2">/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx</value>
+          <value key="fx_tpp_fildst01_VD">/Assets/tpp/effect/vfx_data/filter/fx_tpp_fildst01_VD.vfx</value>
+          <value key="fx_tpp_splwtr09_s1">/Assets/tpp/effect/vfx_data/splash/fx_tpp_splwtr09_s1.vfx</value>
+          <value key="StunLightning">/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrstnltb01_s2.vfx</value>
+        </property>
+        <property name="geoMaterialFiles" type="FilePtr" container="StringMap" />
+        <property name="otherFiles" type="FilePtr" container="StringMap" arraySize="5">
+          <value key="MarkerModel">/Assets/tpp/chara/olm/Scenes/olm0_enmy0_def.fmdl</value>
+          <value key="fxm_sun">/Assets/tpp/effect/vfx_model/fxm_sun/Scenes/fxm_sun.fmdl</value>
+          <value key="fxm_moon">/Assets/tpp/effect/vfx_model/fxm_moon/Scenes/fxm_moon.fmdl</value>
+          <value key="dbr0_main0_def">/Assets/tpp/mecha/dbr/Scenes/dbr0_main0_def.fmdl</value>
+          <value key="dbr0_main1_def">/Assets/tpp/mecha/dbr/Scenes/dbr0_main1_def.fmdl</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppDirtyModelData" classVersion="0" addr="0x05DEAFF0" unknown1="64" unknown2="73894">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppDirtyModelData0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppTextureLoader" classVersion="1" addr="0x05DEB060" unknown1="160" unknown2="73896">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppTextureLoader0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="textures" type="Path" container="StringMap" arraySize="3">
+          <value key="common_dmg_a_FILTERLUT">/Assets/tpp/effect/gr_pic/lut/common_dmg_a_FILTERLUT.ftex</value>
+          <value key="gr_cub01_sm_cbm">/Assets/tpp/effect/gr_pic/gr_cub01_ks_cbm_nmp.ftex</value>
+          <value key="common_dmg_b_FILTERLUT">/Assets/tpp/effect/gr_pic/lut/common_dmg_b_FILTERLUT.ftex</value>
+        </property>
+        <property name="forceLargeTextures" type="Path" container="StringMap" arraySize="21">
+          <value key="fx_smkcom10_ks_alp_clp">/Assets/tpp/effect/vfx_pic/smoke/fx_smkcom10_ks_alp_clp.ftex</value>
+          <value key="fx_smktbc01_iy">/Assets/tpp/effect/vfx_pic/smoke/fx_smktbc01_iy.ftex</value>
+          <value key="fx_smktbc01_iy_alp">/Assets/tpp/effect/vfx_pic/smoke/fx_smktbc01_iy_alp.ftex</value>
+          <value key="fx_smktbc03_iy_alp">/Assets/tpp/effect/vfx_pic/smoke/fx_smkcom03_iy_alp.ftex</value>
+          <value key="fx_dstcom01_ib_alp_clp">/Assets/tpp/effect/vfx_pic/dust/fx_dstcom01_ib_alp_clp.ftex</value>
+          <value key="fx_wtrrin04_iy_alp_clp">/Assets/tpp/effect/vfx_pic/water/fx_wtrrin04_iy_alp_clp.ftex</value>
+          <value key="fx_flrcom01_iy_alp_clp">/Assets/tpp/effect/vfx_pic/flare/fx_flrcom01_iy_alp_clp.ftex</value>
+          <value key="fx_flr_gunlgt_f02_km_alp_clp">/Assets/tpp/effect/vfx_pic/flare/fx_flr_gunlgt_f02_km_alp_clp.ftex</value>
+          <value key="gr_mon01_iy_alp_clp">/Assets/tpp/effect/gr_pic/gr_mon01_iy_alp_clp.ftex</value>
+          <value key="fx_mrkfot01_iy_alp_clp">/Assets/tpp/effect/vfx_pic/mark/fx_mrkfot01_iy_alp_clp.ftex</value>
+          <value key="gr_sun01_iy_alp_clp">/Assets/tpp/effect/gr_pic/gr_sun01_iy_alp_clp.ftex</value>
+          <value key="fx_cldcyl01_st_nmp_alp">/Assets/tpp/effect/vfx_pic/cloud/fx_cldcyl01_st_nmp_alp.ftex</value>
+          <value key="fx_flrcom02_iy_alp">/Assets/tpp/effect/vfx_pic/flare/fx_flrcom02_iy_alp.ftex</value>
+          <value key="fx_viwdmgdir03_iy_clp">/Assets/tpp/effect/vfx_pic/view/fx_viwdmgdir03_iy_clp.ftex</value>
+          <value key="fx_smkfilblr01_iy">/Assets/tpp/effect/vfx_pic/smoke/fx_smkfilblr01_iy.ftex</value>
+          <value key="fx_fir03_ks">/Assets/tpp/effect/vfx_pic/fire/fx_fir03_ks.ftex</value>
+          <value key="fx_wtrdrp04n_iy_alp">/Assets/tpp/effect/vfx_pic/water/fx_wtrdrp04n_iy_alp.ftex</value>
+          <value key="fx_viweyelid03_iy_alp_clp">/Assets/tpp/effect/vfx_pic/view/fx_viweyelid03_iy_alp_clp.ftex</value>
+          <value key="fx_mrkfot01msk_iy_clp">/Assets/tpp/effect/vfx_pic/mark/fx_mrkfot01msk_iy_clp.ftex</value>
+          <value key="fx_mrkfot01n_iy_hnm_clp">/Assets/tpp/effect/vfx_pic/mark/fx_mrkfot01n_iy_hnm_clp.ftex</value>
+          <value key="gr_rinmsk01_iy_alp_clp">/Assets/tpp/effect/gr_pic/gr_rinmsk01_iy_alp_clp.ftex</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppModelMarkerFilterSettings" classVersion="0" addr="0x05DEB0D0" unknown1="128" unknown2="73898">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppModelMarkerFilterSettings0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="texRepeatsNear" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="texRepeatsFar" type="float" container="StaticArray" arraySize="1">
+          <value>10</value>
+        </property>
+        <property name="texRepeatsMin" type="float" container="StaticArray" arraySize="1">
+          <value>0.3</value>
+        </property>
+        <property name="texRepeatsMax" type="float" container="StaticArray" arraySize="1">
+          <value>1.5</value>
+        </property>
+        <property name="alphas" type="Vector3" container="DynamicArray" arraySize="4">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="4" y="1" z="0" w="0" />
+          <value x="110" y="1" z="0" w="0" />
+          <value x="160" y="0" z="0" w="0" />
+        </property>
+        <property name="offsets" type="Vector3" container="DynamicArray" arraySize="4">
+          <value x="0" y="1" z="0" w="0" />
+          <value x="85" y="0" z="0" w="0" />
+          <value x="110" y="0" z="0" w="0" />
+          <value x="160" y="0.5" z="0" w="0" />
+        </property>
+        <property name="incidences" type="Vector3" container="DynamicArray" arraySize="5">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="45" y="0.2" z="0" w="0" />
+          <value x="60" y="0.5" z="0" w="0" />
+          <value x="100" y="0.1" z="0" w="0" />
+          <value x="160" y="0" z="0" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppDamageFilterExposure" classVersion="1" addr="0x05DEB140" unknown1="88" unknown2="73900">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppDamageFilterExposure0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="exposureCompensation" type="float" container="StaticArray" arraySize="1">
+          <value>-1</value>
+        </property>
+        <property name="minExposure" type="float" container="StaticArray" arraySize="1">
+          <value>-20</value>
+        </property>
+        <property name="maxExposure" type="float" container="StaticArray" arraySize="1">
+          <value>20</value>
+        </property>
+        <property name="beatExposureCompensation" type="float" container="StaticArray" arraySize="1">
+          <value>1.5</value>
+        </property>
+        <property name="minBeatInterval" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="maxBeatInterval" type="float" container="StaticArray" arraySize="1">
+          <value>1.2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppDamageFilterParam" classVersion="0" addr="0x05DEB220" unknown1="336" unknown2="73904">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppDamageFilterParam0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05DEB290</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="burnOutsideColor" type="Color" container="StaticArray" arraySize="1">
+          <value r="1.2" g="0.5592" b="-2.4" a="0.3" />
+        </property>
+        <property name="burnMiddleColor" type="Color" container="StaticArray" arraySize="1">
+          <value r="0.3" g="-0.828" b="-0.9" a="0.7" />
+        </property>
+        <property name="burnInsideColor" type="Color" container="StaticArray" arraySize="1">
+          <value r="0.01" g="0.00541" b="0" a="1" />
+        </property>
+        <property name="burnHoleColor" type="Color" container="StaticArray" arraySize="1">
+          <value r="5" g="3.1" b="2.5" a="1" />
+        </property>
+        <property name="burnSpriteSize" type="float" container="StaticArray" arraySize="1">
+          <value>0.6</value>
+        </property>
+        <property name="burnSpritePosition" type="float" container="StaticArray" arraySize="1">
+          <value>0.8</value>
+        </property>
+        <property name="damageColorCorrectionTextureName" type="String" container="StaticArray" arraySize="1">
+          <value>common_dmg_a_FILTERLUT</value>
+        </property>
+        <property name="injuryColorCorrectionTextureName" type="String" container="StaticArray" arraySize="1">
+          <value>common_dmg_b_FILTERLUT</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05DEB290" unknown1="80" unknown2="73907">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEB220</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppOutOfMissionRangeEffect" classVersion="2" addr="0x05DEB300" unknown1="144" unknown2="73909">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppOutOfMissionRangeEffect0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="enable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="lutTexture" type="Path" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/gr_pic/lut/common_outarea_a_FILTERLUT.ftex</value>
+        </property>
+        <property name="startSlope" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="endSlope" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="blendRatio" type="float" container="StaticArray" arraySize="1">
+          <value>0.4</value>
+        </property>
+        <property name="colorScale" type="Color" container="StaticArray" arraySize="1">
+          <value r="1" g="1" b="1" a="1" />
+        </property>
+        <property name="noiseScale" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="noiseOffset" type="float" container="StaticArray" arraySize="1">
+          <value>-0.5</value>
+        </property>
+        <property name="noiseCutScale" type="float" container="StaticArray" arraySize="1">
+          <value>0.3</value>
+        </property>
+        <property name="noiseCutOffset" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="noiseColor" type="Color" container="StaticArray" arraySize="1">
+          <value r="0" g="0" b="0" a="0.3" />
+        </property>
+        <property name="cinemaScopeSlope" type="float" container="StaticArray" arraySize="1">
+          <value>20</value>
+        </property>
+        <property name="cinemaScopeShift" type="float" container="StaticArray" arraySize="1">
+          <value>0.58</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppFireLights" classVersion="0" addr="0x05DEB370" unknown1="64" unknown2="73911">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppFireLights0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppGrenadeShock" classVersion="1" addr="0x05DEB3E0" unknown1="92" unknown2="73913">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppGrenadeShock0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="redConeSaturationDuration" type="float" container="StaticArray" arraySize="1">
+          <value>0.69</value>
+        </property>
+        <property name="greenConeSaturationDuration" type="float" container="StaticArray" arraySize="1">
+          <value>0.61</value>
+        </property>
+        <property name="blueConeSaturationDuration" type="float" container="StaticArray" arraySize="1">
+          <value>0.51</value>
+        </property>
+        <property name="distortionVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>0.113</value>
+        </property>
+        <property name="distortionIntensity" type="float" container="StaticArray" arraySize="1">
+          <value>0.025</value>
+        </property>
+        <property name="distortionProjectionScale" type="float" container="StaticArray" arraySize="1">
+          <value>0.5</value>
+        </property>
+        <property name="rotationSpeed" type="float" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppFirePropagationLights" classVersion="0" addr="0x05DEB450" unknown1="64" unknown2="73915">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppFirePropagationLights0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x03BF06A0" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05DEAF10</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

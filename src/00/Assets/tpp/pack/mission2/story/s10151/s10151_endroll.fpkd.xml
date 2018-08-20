@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10151_endroll.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/ending_okb.fox2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.eng.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.fre.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.ger.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.ita.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.jpn.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.por.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.rus.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.spa.lng" />
+  </Entries>
+  <References />
+</ArchiveFile>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10140_area.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/pack/mission2/story/s10140/s10140_area.frt" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_large/pfCamp/mafr_pfCamp_s10140_asset_fox2_0_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_large/pfCamp/mafr_pfCamp_s10140_light_fox2_tgrxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/hostage2/Hostage2_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/parasite/Parasite2_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/codetalker2/CodeTalker2_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/codetalker2/Codetalker2_facial.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/hostage2/Hostage2_layers_no_stand.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/parasite/Parasite2Facial.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/parasite/Parasite2_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn1000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_s0140.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_sequence_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_headmark/UI_hud_headmark_gage.uilb" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmu3_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock0_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock1_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock2_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock3_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock4_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock5_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock6_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock7_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock8_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock9_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/nbt/Scenes/nbt0_obje0_bre.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/uth/Scenes/uth0_main0_rst.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/ar02_main0_aw0.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sg03_main1_aw0.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sm02_main1_aw0.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/bld/Scenes/bl03_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock0_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock1_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock2_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock3_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock4_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock5_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock6_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock7_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock8_sta.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmue_rock9_sta.geom" />
+    <Entry FilePath="/Assets/tpp/mecha/nbt/Scenes/nbt0_obje0_bre.geom" />
+    <Entry FilePath="/Assets/tpp/mecha/uth/Scenes/uth0_main0_rst.geom" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmu3_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/ar02_main0_aw0.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sg03_main1_aw0.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sm02_main1_aw0.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/bld/Scenes/bl03_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/wmu/Scenes/wmu3_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_headmark_gage.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_life_flash.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_sub_flash.uia" />
+    <Entry FilePath="/Assets/tpp/fova/chara/wmu/wmu3_v00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/wmu/wmu3_v01.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/uth/uth_v02_fv2.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_codetalker.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_mafr.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="lang_tpp_system_xb1_jpn.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_system_xb1.jpn.lng2" />
+  </Entries>
+  <References />
+</ArchiveFile>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mb_child_window_mtbs_info.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_mb_status_top.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_mb_status_unit_cmn_layout.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_mb_status_unit_cmn_record.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_mb_status_unit_cmn_title.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_mb_status_unit_cmnd.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_tab_mb_status_pfinfo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_tab_mb_status_pfinfo_list.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_menu/UI_tabcursor_mb_status.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_base_title.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_mark_new.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_usr_info.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_usr_title.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_status_top.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_status_unit_cmn_layout.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_status_unit_cmn_record.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_status_unit_cmn_title.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_status_unit_cmnd.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_tab_mb_status_pfinfo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_tab_mb_status_pfinfo_list.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_tabcursor_mb_status.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_base_title.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_usr_info.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_usr_title.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_image_sub_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_image_sub_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_unitinfo_cmn_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_unitinfo_cmn_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_unitinfo_cmnd_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_mb_sts_unitinfo_cmnd_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_tab_cursor_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_menu/Scenes/UI_tab_cursor_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_cmn_mark_new_default.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_cmn_mark_new_tutorial.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new_loop.uia" />
+  </Entries>
+  <References />
+</ArchiveFile>

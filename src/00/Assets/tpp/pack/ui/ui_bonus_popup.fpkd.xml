@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="ui_bonus_popup.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/SetupAsset/EmblemBlenderSmall.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/bonus_popup.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/common/result_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/common/result_radio.fox2" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_result.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_result_common.sdf" />
+  </Entries>
+  <References />
+</ArchiveFile>

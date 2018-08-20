@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="lang_tpp_challenge_task_fre.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/Common/data/lang_challenge_task_fre.fox2" />
+  </Entries>
+  <References />
+</ArchiveFile>

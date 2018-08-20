@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="PhxVehicleAxis" super="" version="1" />
+    <class name="PhVehicleAxisParam" super="" version="1" />
+    <class name="PhxWheelConstraintParam" super="" version="2" />
+    <class name="PhxWheelAssociationUnitParam" super="" version="0" />
+    <class name="PhxVehicleNormalEngine" super="" version="1" />
+    <class name="PhVehicleNormalEngineParam" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x060EC330" unknown1="232" unknown2="33195">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="4">
+          <value key="PhxVehicleAxis0000">0x060EC3A0</value>
+          <value key="PhxVehicleAxis0001">0x060ECA30</value>
+          <value key="PhxVehicleNormalEngine0000">0x060ECC60</value>
+          <value key="PhxVehicleAxis0002">0x060ECD40</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxVehicleAxis" classVersion="1" addr="0x060EC3A0" unknown1="128" unknown2="33197">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhxVehicleAxis0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x060EC330</value>
+        </property>
+        <property name="vehicleAxisParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060EC100</value>
+        </property>
+        <property name="wheelConstraintParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060EC170</value>
+        </property>
+        <property name="wheelAssociationUnitParams" type="EntityPtr" container="DynamicArray" arraySize="2">
+          <value>0x060EC720</value>
+          <value>0x060EC9C0</value>
+        </property>
+        <property name="torqueDistributions" type="float" container="DynamicArray" />
+        <property name="gearRatios" type="float" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhVehicleAxisParam" classVersion="1" addr="0x060EC100" unknown1="32" unknown2="33199">
+      <staticProperties>
+        <property name="maxBreakTorque" type="float" container="StaticArray" arraySize="1">
+          <value>50000</value>
+        </property>
+        <property name="useDifferential" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelConstraintParam" classVersion="2" addr="0x060EC170" unknown1="160" unknown2="33200">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="defaultRotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="positionL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="frontL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="1" w="0" />
+        </property>
+        <property name="upL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="1" z="0" w="0" />
+        </property>
+        <property name="wheelPositionOffset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.125" z="0" w="0" />
+        </property>
+        <property name="radius" type="float" container="StaticArray" arraySize="1">
+          <value>0.6</value>
+        </property>
+        <property name="suspensionLength" type="float" container="StaticArray" arraySize="1">
+          <value>0.4</value>
+        </property>
+        <property name="maxSuspensionForce" type="float" container="StaticArray" arraySize="1">
+          <value>2.45</value>
+        </property>
+        <property name="dampingFactorElong" type="float" container="StaticArray" arraySize="1">
+          <value>0.055</value>
+        </property>
+        <property name="dampingFactorCompress" type="float" container="StaticArray" arraySize="1">
+          <value>0.055</value>
+        </property>
+        <property name="friction" type="float" container="StaticArray" arraySize="1">
+          <value>0.94</value>
+        </property>
+        <property name="restitution" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="inertia" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelAssociationUnitParam" classVersion="0" addr="0x060EC720" unknown1="32" unknown2="33201">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_110_WHEELL1</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelAssociationUnitParam" classVersion="0" addr="0x060EC9C0" unknown1="32" unknown2="33202">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_120_WHEELR1</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxVehicleAxis" classVersion="1" addr="0x060ECA30" unknown1="128" unknown2="33203">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhxVehicleAxis0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x060EC330</value>
+        </property>
+        <property name="vehicleAxisParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060ECAA0</value>
+        </property>
+        <property name="wheelConstraintParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060ECB10</value>
+        </property>
+        <property name="wheelAssociationUnitParams" type="EntityPtr" container="DynamicArray" arraySize="2">
+          <value>0x060ECB80</value>
+          <value>0x060ECBF0</value>
+        </property>
+        <property name="torqueDistributions" type="float" container="DynamicArray" />
+        <property name="gearRatios" type="float" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhVehicleAxisParam" classVersion="1" addr="0x060ECAA0" unknown1="32" unknown2="33205">
+      <staticProperties>
+        <property name="maxBreakTorque" type="float" container="StaticArray" arraySize="1">
+          <value>50000</value>
+        </property>
+        <property name="useDifferential" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelConstraintParam" classVersion="2" addr="0x060ECB10" unknown1="160" unknown2="33206">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="defaultRotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="positionL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="frontL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="1" w="0" />
+        </property>
+        <property name="upL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="1" z="0" w="0" />
+        </property>
+        <property name="wheelPositionOffset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.11" z="0" w="0" />
+        </property>
+        <property name="radius" type="float" container="StaticArray" arraySize="1">
+          <value>0.6</value>
+        </property>
+        <property name="suspensionLength" type="float" container="StaticArray" arraySize="1">
+          <value>0.5</value>
+        </property>
+        <property name="maxSuspensionForce" type="float" container="StaticArray" arraySize="1">
+          <value>2.3</value>
+        </property>
+        <property name="dampingFactorElong" type="float" container="StaticArray" arraySize="1">
+          <value>0.055</value>
+        </property>
+        <property name="dampingFactorCompress" type="float" container="StaticArray" arraySize="1">
+          <value>0.055</value>
+        </property>
+        <property name="friction" type="float" container="StaticArray" arraySize="1">
+          <value>1.34</value>
+        </property>
+        <property name="restitution" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="inertia" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelAssociationUnitParam" classVersion="0" addr="0x060ECB80" unknown1="32" unknown2="33207">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_130_WHEELL2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelAssociationUnitParam" classVersion="0" addr="0x060ECBF0" unknown1="32" unknown2="33208">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_140_WHEELR2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxVehicleNormalEngine" classVersion="1" addr="0x060ECC60" unknown1="120" unknown2="33209">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhxVehicleNormalEngine0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x060EC330</value>
+        </property>
+        <property name="vehicleAxes" type="EntityLink" container="DynamicArray" arraySize="3">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/smt/smt.veh" nameInArchive="PhxVehicleAxis0000">0x060EC3A0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/smt/smt.veh" nameInArchive="PhxVehicleAxis0001">0x060ECA30</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/smt/smt.veh" nameInArchive="PhxVehicleAxis0002">0x060ECD40</value>
+        </property>
+        <property name="torqueDistributions" type="float" container="DynamicArray" />
+        <property name="gearRatios" type="float" container="DynamicArray" />
+        <property name="vehicleNormalEngineParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060ECCD0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhVehicleNormalEngineParam" classVersion="0" addr="0x060ECCD0" unknown1="72" unknown2="33214">
+      <staticProperties>
+        <property name="specPointAngularVelocity" type="float" container="DynamicArray" arraySize="8">
+          <value>0</value>
+          <value>1000</value>
+          <value>2000</value>
+          <value>3000</value>
+          <value>4000</value>
+          <value>5000</value>
+          <value>6000</value>
+          <value>12000</value>
+        </property>
+        <property name="specPointTorque" type="float" container="DynamicArray" arraySize="8">
+          <value>1000</value>
+          <value>1280</value>
+          <value>1360</value>
+          <value>1360</value>
+          <value>1280</value>
+          <value>840</value>
+          <value>400</value>
+          <value>120</value>
+        </property>
+        <property name="specPointBreakTorque" type="float" container="DynamicArray" arraySize="8">
+          <value>300</value>
+          <value>540</value>
+          <value>900</value>
+          <value>1020</value>
+          <value>1500</value>
+          <value>1800</value>
+          <value>2400</value>
+          <value>1200</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxVehicleAxis" classVersion="1" addr="0x060ECD40" unknown1="128" unknown2="33215">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhxVehicleAxis0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x060EC330</value>
+        </property>
+        <property name="vehicleAxisParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060ECDB0</value>
+        </property>
+        <property name="wheelConstraintParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x060ECE20</value>
+        </property>
+        <property name="wheelAssociationUnitParams" type="EntityPtr" container="DynamicArray" arraySize="2">
+          <value>0x060ECE90</value>
+          <value>0x060ECF00</value>
+        </property>
+        <property name="torqueDistributions" type="float" container="DynamicArray" />
+        <property name="gearRatios" type="float" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhVehicleAxisParam" classVersion="1" addr="0x060ECDB0" unknown1="32" unknown2="33217">
+      <staticProperties>
+        <property name="maxBreakTorque" type="float" container="StaticArray" arraySize="1">
+          <value>50000</value>
+        </property>
+        <property name="useDifferential" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelConstraintParam" classVersion="2" addr="0x060ECE20" unknown1="160" unknown2="33218">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="defaultRotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="positionL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="frontL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="1" w="0" />
+        </property>
+        <property name="upL" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="1" z="0" w="0" />
+        </property>
+        <property name="wheelPositionOffset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.11" z="0" w="0" />
+        </property>
+        <property name="radius" type="float" container="StaticArray" arraySize="1">
+          <value>0.6</value>
+        </property>
+        <property name="suspensionLength" type="float" container="StaticArray" arraySize="1">
+          <value>0.5</value>
+        </property>
+        <property name="maxSuspensionForce" type="float" container="StaticArray" arraySize="1">
+          <value>2.3</value>
+        </property>
+        <property name="dampingFactorElong" type="float" container="StaticArray" arraySize="1">
+          <value>0.055</value>
+        </property>
+        <property name="dampingFactorCompress" type="float" container="StaticArray" arraySize="1">
+          <value>0.055</value>
+        </property>
+        <property name="friction" type="float" container="StaticArray" arraySize="1">
+          <value>1.34</value>
+        </property>
+        <property name="restitution" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="inertia" type="float" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelAssociationUnitParam" classVersion="0" addr="0x060ECE90" unknown1="32" unknown2="33219">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_150_WHEELL3</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhxWheelAssociationUnitParam" classVersion="0" addr="0x060ECF00" unknown1="32" unknown2="33220">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_160_WHEELR3</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

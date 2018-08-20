@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="EQP_WP_West_sr_048.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/motion/mtar/equip/chimera/assemble/sr00_asm.mtar" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_bino/UI_wp_zoom.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_keyhelp/UI_bino_keyhelp_zoom_icon.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_bino_bstr.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_st03_1.uilb" />
+    <Entry FilePath="/Assets/tpp/weapon/amo/Scenes/am02_main4_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sr00_main0_aw4.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sr00_main0_aw4.fcnp" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_bino.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_st03_1.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_zoom.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_keyhelp/Scenes/UI_hud_keyhelp.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_bino_setin_wp_2.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_bino_setin_wp_2_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_bino_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_bino_shot.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_cmn_wpscp_lp_def.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_cmn_wpscp_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_cmn_wpscp_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_cmn_wpscp_shot.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_zoom_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_zoom_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_zoom_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_zoom_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_keyhelp/Scenes/UI_hud_keyhelp_act_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_keyhelp/Scenes/UI_hud_keyhelp_act_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_keyhelp/Scenes/UI_hud_keyhelp_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_keyhelp/Scenes/UI_hud_keyhelp_setout.uia" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

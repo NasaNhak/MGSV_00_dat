@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="am07_main3_def_v00.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/keep_in_fpkl/chimera/magazine/am07_main3_def.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/amo/am07_main3_def_v00.parts" />
+  </Entries>
+  <References />
+</ArchiveFile>

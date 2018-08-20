@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mis_com_avatar_edit.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/uig_avatar_edit.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/player2_avatar_edit_motion.fox2" />
+    <Entry FilePath="/Assets/tpp/chara/avr/avr_stage.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_tilelist_entry.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_list_entry.fox2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.eng.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.fre.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.ger.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.ita.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.jpn.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.por.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.rus.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_avatar.spa.lng" />
+  </Entries>
+  <References />
+</ArchiveFile>

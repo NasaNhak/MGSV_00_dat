@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="f30050_m20031.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/ending_nuke.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_m20031.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/common/demoScriptBlockScript.fox2" />
+    <Entry FilePath="/Assets/tpp/script/mission/demo_block.lua" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.eng.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.fre.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.ger.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.ita.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.jpn.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.por.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.rus.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_ending.spa.lng" />
+  </Entries>
+  <References />
+</ArchiveFile>

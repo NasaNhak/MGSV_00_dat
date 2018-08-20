@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="plfova_cmf0_main0_def_v39.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/fova/chara/dlf/cmf0_main0_def_v39.fv2" />
+  </Entries>
+  <References />
+</ArchiveFile>

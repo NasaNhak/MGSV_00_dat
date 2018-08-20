@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mb_child_window_mission_info.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/motion/mtar/ui/mb_child_window_mission_info.caar" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/cmn_loadmark/UI_mb_loadmark.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_common/UI_mb_cmn_bg_nologo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_missionmenu/UI_mb_missioninfo_list.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_missionmenu/UI_mb_missioninfo_record.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_missionmenu/UI_mb_missioninfo_recordtitle.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_missionmenu/UI_mb_mm_info_skill.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_missionmenu/UI_mb_mm_info_skill_record.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_missionmenu/UI_mission_info.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_photo/UI_mb_photo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_photo/UI_mb_photo_arw.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_photo/UI_mb_photo_reading.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_photo/UI_mb_phto_scrl_body.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_photo/UI_mb_phto_scrl_lyt.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/record/UI_cursor.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/scrollbar/UI_scrollbar.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_keyhelp.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_mark_new.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/cmn_loadmark/Scenes/UI_cmn_loadmark.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_common/Scenes/UI_mb_cmn_bg_nologo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mb_missioninfo_list.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mb_missioninfo_record.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mb_missioninfo_recordtitle.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mb_missioninfo_skill_layout.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mb_missioninfo_skill_record.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mm_info_lyt.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_missionmenu/Scenes/UI_mm_info_msn.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_photo/Scenes/UI_mb_photo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_photo/Scenes/UI_mb_photo_arw.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_photo/Scenes/UI_mb_photo_sub.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_photo/Scenes/UI_mb_phto_lyt.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_photo/Scenes/UI_mb_phto_scrl_body.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_photo/Scenes/UI_mb_phto_scrl_lyt.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_cursor.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_scrollbar.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_keyhelp.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new.uif" />
+  </Entries>
+  <References />
+</ArchiveFile>

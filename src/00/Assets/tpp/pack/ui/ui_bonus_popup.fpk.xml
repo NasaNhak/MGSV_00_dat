@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="ui_bonus_popup.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Font/Font_emb.fnt" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn6000.rdf" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_bonus/UI_sys_bonus.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_bonus/UI_sys_bonus_rarity.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_bonus/UI_sys_bonus_staff_record.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_bonus/UI_sys_bonus_staff_tile.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_common/UI_sys_cmn_logo_bg.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_gauge_a.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_mark_new.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_rarity.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_staff_cursor.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_staff_record.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_staff_tile.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_logo_bg.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_gauge_a.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bns_staff_rcd_act_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bns_staff_rcd_act_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_chgin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_chgout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_icon.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_icon_b.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_lp.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_lp_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_rarity_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_rarity_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_staff.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_staffability.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_staffhanyo.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stf_chgin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stf_chgout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stf_crs_fix_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stf_crs_range_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stf_crs_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stf_tile_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stfhanyo_chgin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_stfhanyo_chgout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_bonus/Scenes/UI_sys_bonus_txt.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_dd_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_dd_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_hanyo_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_hanyo_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_lp_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_cmn_mark_new_default.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_cmn_mark_new_tutorial.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_gauge_a_loop.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_gauge_a_loop_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new_loop.uia" />
+  </Entries>
+  <References />
+</ArchiveFile>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="am07_main4_def_v00.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/weapon/amo/Scenes/am07_main4_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/amo/Scenes/am07_main4_def.fcnp" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

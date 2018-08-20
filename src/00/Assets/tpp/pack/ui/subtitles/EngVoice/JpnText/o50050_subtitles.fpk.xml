@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="o50050_subtitles.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/subp/EngVoice/JpnText/common.subp" />
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/subp/EngVoice/JpnText/enemy_en.subp" />
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/subp/EngVoice/JpnText/mgo_player.subp" />
+  </Entries>
+  <References />
+</ArchiveFile>

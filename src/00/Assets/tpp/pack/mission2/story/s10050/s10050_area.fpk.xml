@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10050_area.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/pack/mission2/story/s10050/s10050_area.frt" />
+    <Entry FilePath="/Assets/tpp/level/location/afgh/block_large/waterway/afgh_waterway_s10050_asset_fox2_0_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/bossquiet2/BossQuiet2_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/bossquiet2/BossQuiet2_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/buddyquiet2/BuddyQuiet2Facial.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/equip/EQP_WP_Quiet_sr_010.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/equip/chimera/assemble/sr02qui_asm.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/player2/Mission/pl_mission_s10050.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/rat/TppRat_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/stork/Stork_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn1000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_s0050.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_sequence_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_headmark/UI_hud_headmark_gage.uilb" />
+    <Entry FilePath="/Assets/tpp/chara/apk/Scenes/apk0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/qui/Scenes/qui5_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/stk/Scenes/stk0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/item/hcf/Scenes/hcf0_main2_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/amo/Scenes/am09_main1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sr02_main1_aw0.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/afghanistan/tree/afgh_tree010/scenes/afgh_tree010_vrtn001_an.geom" />
+    <Entry FilePath="/Assets/tpp/environ/object/middle_africa/tree/mafr_tree030/scenes/mafr_tree030.geom" />
+    <Entry FilePath="/Assets/tpp/chara/qui/Scenes/qui5_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/asw/Scenes/sr02_main1_aw0.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/qui/Scenes/qui5_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/chara/stk/Scenes/stk0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_headmark_gage.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_life_flash.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_sub_flash.uia" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/qui.ladb" />
+    <Entry FilePath="/Assets/tpp/fova/chara/stk/stk0_c00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/uth/uth_v02_fv2.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_quiet.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_raven.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

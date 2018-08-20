@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mis_com_dd_soldier_swim_suit.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level/mission2/common/mis_com_dd_soldier_swim_suit.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/parts/chara/dlf/dlf0_enem0_def_f_v00.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkcig03_s0.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkchrbrt01_s0GM.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/hit/fx_tpp_hitbdy01_s0LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrwmueye01_s0.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrhitsmk01_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsmk03_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsmk02_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsmk01e_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrfotsmk01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrcqcsmk01_s1MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld03_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld01_s1LG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlnswmueye01_s2VG.vfxlf" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetPushDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetGrazeNmlDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetGrazeCovDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetDefense.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/chara/human_def.phsd" />
+    <Entry FilePath="/Assets/tpp/parts/chara/npc/ene0_v01.ph" />
+    <Entry FilePath="/Assets/tpp/motion/facial_setting_data/tppEnemy.fsd" />
+  </Entries>
+  <References />
+</ArchiveFile>

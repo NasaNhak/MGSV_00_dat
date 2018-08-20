@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="init.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Font/Font_emb.fnt" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/eula/eula.uigb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_common/UI_sys_cmn_bg.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_logo/UI_common_logo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_rule/UI_sys_rule.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_rule/UI_sys_rule_btn.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_select_lang/UI_sys_select_lang.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_select_lang/UI_sys_slct_lang_list_body.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_bg.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_logo/Scenes/UI_common_logo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_rule/Scenes/UI_sys_rule.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_rule/Scenes/UI_sys_rule_btn.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_slct_lang_list_body.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_slct_lang_lyt.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/cmn_animation/Scenes/UI_cmn_alp_loop_blink.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/cmn_animation/Scenes/UI_cmn_anm_crs_sys_crs_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/cmn_animation/Scenes/UI_cmn_anm_crs_sys_crs_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_common/Scenes/UI_sys_cmn_bg_lp_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_logo/Scenes/UI_common_logo_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_logo/Scenes/UI_common_logo_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_rule/Scenes/UI_sys_rule_btn_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_rule/Scenes/UI_sys_rule_btn_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_rule/Scenes/UI_sys_rule_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_rule/Scenes/UI_sys_rule_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_slct_lang_lyt_even.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_slct_lang_lyt_odd.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_slct_lang_lyt_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_slct_lang_lyt_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_select_lang/Scenes/UI_sys_st_lng_lst_bdy_crs_push.uia" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+  </References>
+</ArchiveFile>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="buddy_horse2_05.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/rig/frig/tpp_horse.frig" />
+    <Entry FilePath="/Assets/tpp/chara/hrs/Scenes/hrs5_main1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/hrs/Scenes/hrs5_main1_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/hrs/Scenes/hrs5_main1_def.frdv" />
+  </Entries>
+  <References />
+</ArchiveFile>

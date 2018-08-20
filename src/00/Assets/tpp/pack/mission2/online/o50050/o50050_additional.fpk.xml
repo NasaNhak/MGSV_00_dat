@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="o50050_additional.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/online/o50050/CpRadioSeqCommon_additional.spch" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_terop_licence/UI_hud_terop_licence.uilb" />
+    <Entry FilePath="/Assets/tpp/mecha/dbr/Scenes/dbr0_main1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt01_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/thr/Scenes/tr07_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt01_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/thr/Scenes/tr07_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_missioncommon/Scenes/UI_hud_terop_licence.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_missioncommon/Scenes/UI_hud_trp_licence_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_missioncommon/Scenes/UI_hud_trp_licence_setout.uia" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/dlc/pt01_main1_def.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/weapon/dlc/pt01_main2_def.fv2" />
+  </Entries>
+  <References />
+</ArchiveFile>

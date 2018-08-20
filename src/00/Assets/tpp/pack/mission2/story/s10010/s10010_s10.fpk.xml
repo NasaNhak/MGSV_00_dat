@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10010_s10.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingChronology.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_ck_360ps3.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_ck_ps4.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_jp.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_jp_360ps3.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_jp_One.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_jp_ps4.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_na.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_na_360ps3.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_na_One.ends" />
+    <Entry FilePath="/Assets/tpp/ui/Ending/TppEndingSetting4_na_ps4.ends" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/ending/ending.uigb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_chrono_bg.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_bg.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_continue.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_eplg.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_layout.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_logo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_lyric.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_mainstf.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_endcredit/UI_sys_end_roll.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/sys_logo/UI_common_logo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_chrono_bg.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_bg.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_continue.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_eplg.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_layout.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_logo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_lyric.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_mainstf.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_end_roll.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_logo/Scenes/UI_common_logo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_chrono_bg_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/UI_sys_chrono_bg_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_bg_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_bg_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_coninue_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_continue_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_eplg_page_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_eplg_page_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_eplg_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_eplg_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_logo_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_logo_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_lyric_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_lyric_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_mainstf_page_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_mainstf_page_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_mainstf_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_mainstf_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_roll_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_endcredit/Scenes/Ui_sys_end_roll_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_logo/Scenes/UI_common_logo_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/sys_logo/Scenes/UI_common_logo_setout.uia" />
+  </Entries>
+  <References />
+</ArchiveFile>

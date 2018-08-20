@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10050_area01.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/single_pl2_instance_scarf.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_block01.fox2" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_s10050.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/se_s10050_1.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_s10050.sdf" />
+    <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_sequence.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_radio.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_enemy.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10050/s10050_demo.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

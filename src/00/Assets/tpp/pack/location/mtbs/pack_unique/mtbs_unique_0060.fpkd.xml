@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mtbs_unique_0060.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uni0060.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/environ/object/mother_base/forklift/mtbs_frlf002/mtbs_frlf002_vrtn001.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrenvmtbobj11_m5.vfx" />
+    <Entry FilePath="/Assets/tpp/parts/environ/object/mother_base/forklift/mtbs_frlf002/mtbs_frlf002_vrtn001_ofns.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/environ/object/mother_base/forklift/mtbs_frlf002/mtbs_frlf002_vrtn001.tgt" />
+  </Entries>
+  <References />
+</ArchiveFile>

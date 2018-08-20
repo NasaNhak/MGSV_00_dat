@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mb_child_window_pf_rating.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/SetupAsset/EmblemBlenderSmall.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/MotherBaseManagement/ui_mbm_pf_rating_entry.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_tablist_entry.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_popup_entry.fox2" />
+    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_list_entry.fox2" />
+  </Entries>
+  <References />
+</ArchiveFile>

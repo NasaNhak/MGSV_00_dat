@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="dlg0_plym0_v06.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/fova/chara/dlg/dlg1_enem0_f_v06.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dlg/dlg1_enem0_v06.fv2" />
+  </Entries>
+  <References />
+</ArchiveFile>

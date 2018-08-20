@@ -1,0 +1,8 @@
+.buildpath
+.project
+
+.settings/*
+.settings/**
+.settings/*.*
+
+src/00.dat

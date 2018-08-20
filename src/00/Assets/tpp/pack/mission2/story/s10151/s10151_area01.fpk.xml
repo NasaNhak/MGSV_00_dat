@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10151_area01.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/pack/mission2/story/s10151/s10151_area01.frt" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/hew/bu_east_hw03_s_fre_rld.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/player2/Mission/pl_mission_s10151.mtar" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_nav_sahelan.nav2" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn1000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_s0150.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_sequence_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_headmark/UI_hud_gage_boss.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_vhcl_def_FPS_bs.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_common.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_mbt0_a.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_sav0_b.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_wpscope/UI_wpscope_vehicle_sav0_wepn0.uilb" />
+    <Entry FilePath="/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/sav/Scenes/sav0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/sav/Scenes/sav0_wepn0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas1_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas2_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas3_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/hew/Scenes/hw03_brlh0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/hew/Scenes/hw03_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas0_def.geom" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas1_def.geom" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas2_def.geom" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_glas3_def.geom" />
+    <Entry FilePath="/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.gskl" />
+    <Entry FilePath="/Assets/tpp/mecha/sav/Scenes/sav0_main0_def.gskl" />
+    <Entry FilePath="/Assets/tpp/mecha/sav/Scenes/sav0_wepn0_def.gskl" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_main0_def.gskl" />
+    <Entry FilePath="/Assets/tpp/weapon/hew/Scenes/hw03_main0_def.gskl" />
+    <Entry FilePath="/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/mecha/sav/Scenes/sav0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/mecha/sav/Scenes/sav0_wepn0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/mecha/smt/Scenes/smt0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/hew/Scenes/hw03_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_vhcl_def_FPS_bs.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_vehicle_common.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_vehicle_mbt0_a.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_vehicle_sav0_b.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscope_vehicle_sav0_wepn0.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_gage_boss.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_vhcl_def_fps_bs_lp_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_vhcl_def_fps_bs_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_vhcl_def_fps_bs_setin_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_vhcl_def_fps_bs_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_common_lp.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_common_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_common_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_common_shot.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_mbt0_a_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_mbt0_a_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_sav0_b_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vehicle_sav0_b_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vhcl_sav0_wepn0_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_bino/Scenes/UI_wpscp_vhcl_sav0_wepn0_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_boss_flash.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_boss_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_headmark/Scenes/UI_hud_hdmark_boss_setout.uia" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/uth/uth_v02_fv2.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

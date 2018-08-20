@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="UiGraphEntry" super="" version="1" />
+    <class name="UiInstanceData" super="" version="1" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x02D75CD0" unknown1="232" unknown2="5270">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
+          <value key="UiGraphEntry0000">0x02D75D40</value>
+          <value key="UiInstanceData0000">0x02D75DB0</value>
+          <value key="TexturePackLoadConditioner0000">0x02D797E0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiGraphEntry" classVersion="1" addr="0x02D75D40" unknown1="96" unknown2="5272">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>UiGraphEntry0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x02D75CD0</value>
+        </property>
+        <property name="files" type="FilePtr" container="DynamicArray" />
+        <property name="rawFiles" type="FilePtr" container="DynamicArray" arraySize="30">
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_development.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tablist_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tab_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tabcursor_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_dev_tilelist.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_dev_tiletitle_h.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_dev_tiletitle_v.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_dev_wp_tilerecord.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_dev_tilecursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_a_sub.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_c.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_d.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_i.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_detail_a.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_detail_b.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_cond_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_param_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_bud_cmd_layout.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/popup/UI_popup.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/popup/UI_popup_button.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/popup/UI_popup_button_cursor.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/mb_development/UI_mb_dev_popup_body.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_strength.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/prefab_common/scrollbar/UI_scrollbar.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_popup_mbc_body.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_j.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_it_info.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/tpp_common/UI_cmn_condition_layout_popup.uilb</value>
+          <value>/Assets/tpp/ui/LayoutAsset/iteminfo/UI_iteminfo_page_layout_a.uilb</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="UiInstanceData" classVersion="1" addr="0x02D75DB0" unknown1="120" unknown2="5303">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>UiInstanceData0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x02D75CD0</value>
+        </property>
+        <property name="createWindowParams" type="FilePtr" container="StringMap" />
+        <property name="windowFactoryName" type="String" container="StaticArray" arraySize="1">
+          <value>MotherBaseDeviceChildFactory</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x02D797E0" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x02D75CD0</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

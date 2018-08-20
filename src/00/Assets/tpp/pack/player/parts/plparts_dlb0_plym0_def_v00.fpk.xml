@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="plparts_dlb0_plym0_def_v00.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/chara/dlb/Scenes/dlb0_plym0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/item/msk/Scenes/msk0_fthr0_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/dlb/Scenes/dlb0_plym0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/dlb/Scenes/dlb0_plym0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/sna0.ladb" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

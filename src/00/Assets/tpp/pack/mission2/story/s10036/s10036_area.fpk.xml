@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10036_area.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/pack/mission2/story/s10036/s10036_area.frt" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10036/lba/ifb0_main0_def.lba" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/rat/TppRat_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/raven/TppRaven_layers.mtar" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn1000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
+    <Entry FilePath="/Assets/tpp/radio/RadioData_s0036.rdf" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10036/speech_data_s10036_Vip.spch" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10036/s10036_sequence_fox2_geotrap_win.trap" />
+    <Entry FilePath="/Assets/tpp/chara/rat/Scenes/rat2_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/rvn/Scenes/rvn0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/rvn/Scenes/rvn0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/rvn/Scenes/rvn0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/level/location/afgh/block_mission2/large/field/route/afgh_field_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/afgh/block_mission2/lrrp/afgh_16_29/route/afgh_16_29_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/afgh/block_mission2/lrrp/afgh_20_29/route/afgh_20_29_route.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/afgh/block_mission2/outerBase/fieldEast/route/afgh_fieldEast_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/location/afgh/block_mission2/outerBase/fieldWest/route/afgh_fieldWest_route_f01.frl" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10036/s10036_route.frl" />
+    <Entry FilePath="/Assets/tpp/fova/mecha/uth/uth_v02_fv2.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/collectible/common/col_common_tpp.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/location/afgh/pack_common/afgh_common.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_afgh.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/mission2/common/veh_mc_east_lv.fpk" />
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

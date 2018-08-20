@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mb_child_window_challenge.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_challenge/UI_mb_challenge_layout.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_challenge/UI_mb_challenge_list.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_challenge/UI_mb_challenge_record.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_challenge/UI_mb_challenge_recordtitle.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/mb_common/UI_mb_cmn_bg_nologo.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/record/UI_cursor.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/scrollbar/UI_scrollbar.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tab_a.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tabcursor_a.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/prefab_common/tab/UI_tablist_a.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/LayoutAsset/tpp_common/UI_common_mark_new.uilb" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_challenge_layout.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_challenge_list.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_challenge_record.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_challenge_recordtitle.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_common/Scenes/UI_mb_cmn_bg_nologo.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_cursor.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_scrollbar.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_tab_a.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_tabcursor_a.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_tablist_a.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_pad_button.uif" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_eff_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_eff_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_get.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_help_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_help_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_lyt_setin.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_lyt_setout.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_record_lp.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_record_lp_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_record_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_challenge/Scenes/UI_mb_chlng_record_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_common/Scenes/mb_cmn_bg_nologo_lp.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/mb_common/Scenes/mb_cmn_bg_nologo_lp_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_cursor_loop.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_cursor_loop_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_cursor_push.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_tab_a_cursor_off.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_tab_a_cursor_on.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/prefab_common/Scenes/UI_tabcursor_a_loop_s.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_cmn_mark_new_default.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_cmn_mark_new_tutorial.uia" />
+    <Entry FilePath="/Assets/tpp/ui/ModelAsset/tpp_common/Scenes/UI_common_mark_new_loop.uia" />
+  </Entries>
+  <References />
+</ArchiveFile>

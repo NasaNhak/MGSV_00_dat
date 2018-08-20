@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="plparts_dld0_main0_def_v00.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/chara/dld/Scenes/dld0_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/item/msk/Scenes/msk0_fthr0_sta.fmdl" />
+    <Entry FilePath="/Assets/tpp/chara/dld/Scenes/dld0_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/chara/dld/Scenes/dld0_main0_def.frdv" />
+    <Entry FilePath="/Assets/tpp/motion/lip_adjust_data/sna0.ladb" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dld/dld0_main0_avm_c00.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dld/dld0_main0_avm_c01.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dld/dld0_main0_avm_c02.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dld/dld0_main0_avm_c03.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dld/dld0_main0_avm_c04.fv2" />
+    <Entry FilePath="/Assets/tpp/fova/chara/dld/dld0_main0_sna.fv2" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/resident/resident00.fpk" />
+  </References>
+</ArchiveFile>

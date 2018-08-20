@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10151_area02.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/boot/s10150_subtitles_boot.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/lyric_telop.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/chapter_telop.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/single_pl2_instance_scarf.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/heli/support_heli_mtbs.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_sequence.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_radio.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_block02.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_area02_demo.fox2" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkflr01_m1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfrpg01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfgg01_s0FG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfbkfrpg01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthdnwblr01d_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthdnwblr01_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthblh00_s3.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchnadblhsmk00_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrmchsrclgt01flr_m5.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrmchsrclgt01_m5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/explosion/fx_tpp_expmch03_m2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlnslgt15_s2VG.vfxlf" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_s10150.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/se_s10151_1.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/se_e_mgs.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_s10151.sdf" />
+    <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_sequence.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_score.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_radio.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10151/s10151_demo.lua" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.spa.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.rus.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.por.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.jpn.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.ita.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.ger.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.fre.lng" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_epigraph.eng.lng" />
+  </Entries>
+  <References />
+</ArchiveFile>

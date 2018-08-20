@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="s10140_area00.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/boot/s10140_subtitles_boot.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/single_player2_instance.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/npc/tpp_ocelot2_heli.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/npc/tpp_codetalker2.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/heli/support_heli_mafr.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_block00.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_area00_demo.fox2" />
+    <Entry FilePath="/Assets/tpp/level/location/mafr/block_large/pfCamp/mafr_pfCamp_s10140_light.fox2" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkflr01_m1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfrpg01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfgg01_s0FG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfbkfrpg01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthdnwblr03_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthdnwblr01d_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthblh00_s3.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchnadblhsmk00_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrmchsrclgt01flr_m5.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrmchsrclgt01_m5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/explosion/fx_tpp_expmch03_m2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlnslgt15_s2VG.vfxlf" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_zmb.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_s10140.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/se_e_wmu.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_s10140.sdf" />
+    <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_sequence.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_score.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_radio.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_enemy01.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10140/s10140_demo.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

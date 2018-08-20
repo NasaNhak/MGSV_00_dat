@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="lang_default_data_rus.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/lang/ui/mb_staff_name.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_announce_log.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_cassette.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_cast_staff.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_common.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_dialog.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_emblem.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_gmp_mission.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_hud.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_item.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_mb.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_menu.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_mission.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_quest.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_record.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_tips.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_tutorial.rus.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tpp_weapon.rus.lng2" />
+  </Entries>
+  <References />
+</ArchiveFile>

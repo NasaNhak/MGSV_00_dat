@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="EQP_WP_EX_gl_000.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/sight/sight_st11.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/keep_in_fpkl/EQP_WP_EX_gl_000_keep.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/grl/gl05_main0_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/bul/bu01_whed0_def.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/weapon/fx_tpp_wepbltflt01_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/level_asset/weapon/PhysicsParameter/assault.phsd" />
+  </Entries>
+  <References />
+</ArchiveFile>
