@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="mtbs_uq_plnt_brdg.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt_brdg.frt" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2_0_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2_1_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2_2_geoprim_win.geoms" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2_0_win.gpfp" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2_1_win.gpfp" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2_2_win.gpfp" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2StaticModelArrayLocator0003_grxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2StaticModelArrayLocator0003_tgrxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2StaticModelArrayLocator0004_grxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2StaticModelArrayLocator0004_tgrxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2StaticModelArrayLocator0005_grxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/level/location/mtbs/block_unique/mtbs_uq_plnt_brdg_fox2StaticModelArrayLocator0005_tgrxla_win.grxla" />
+    <Entry FilePath="/Assets/tpp/level_asset/location/mtbs/block_common/mb_brdg_plnt.nav2" />
+    <Entry FilePath="/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt_brdg_0.tcvp" />
+    <Entry FilePath="/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt_brdg_1.tcvp" />
+    <Entry FilePath="/Assets/tpp/pack/location/mtbs/pack_unique/mtbs_uq_plnt_brdg_2.tcvp" />
+    <Entry FilePath="/Assets/tpp/environ/object/mother_base/bridge/mtbs_brdg001/scenes/mtbs_brdg001_lght001.fmdl" />
+    <Entry FilePath="/Assets/tpp/environ/object/mother_base/bridge/mtbs_brdg001/scenes/mtbs_brdg001_lght001.geom" />
+  </Entries>
+  <References>
+    <Reference FilePath="/Assets/tpp/pack/location/mtbs/pack_common/mtbs_common.fpk" />
+  </References>
+</ArchiveFile>

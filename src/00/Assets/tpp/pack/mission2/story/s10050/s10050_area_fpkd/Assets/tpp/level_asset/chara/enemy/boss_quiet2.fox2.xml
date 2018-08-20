@@ -21,7 +21,7 @@
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
           <value key="BossQuietGameObject">0x06D48F20</value>
           <value key="SoundPackage0000">0x06D48430</value>
-          <value key="TexturePackLoadConditioner0000">0x063A1820</value>
+          <value key="TexturePackLoadConditioner0000">0x06381C10</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -109,7 +109,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A1820" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06381C10" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

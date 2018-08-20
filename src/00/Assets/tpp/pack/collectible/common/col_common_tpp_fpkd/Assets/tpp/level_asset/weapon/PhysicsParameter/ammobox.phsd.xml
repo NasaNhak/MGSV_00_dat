@@ -7,7 +7,7 @@
     <class name="SoundPhysicsParameter" super="" version="1" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x098455D0" unknown1="232" unknown2="2926">
+    <entity class="DataSet" classVersion="0" addr="0x096C5FE0" unknown1="232" unknown2="2926">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -16,18 +16,18 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="1">
-          <value key="SoundPhysicsParameter0000">0x09845640</value>
+          <value key="SoundPhysicsParameter0000">0x096C6050</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="SoundPhysicsParameter" classVersion="1" addr="0x09845640" unknown1="140" unknown2="2928">
+    <entity class="SoundPhysicsParameter" classVersion="1" addr="0x096C6050" unknown1="140" unknown2="2928">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>SoundPhysicsParameter0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x098455D0</value>
+          <value>0x096C5FE0</value>
         </property>
         <property name="hitEvent" type="String" container="StaticArray" arraySize="1">
           <value>sfx_m_item_drop01</value>

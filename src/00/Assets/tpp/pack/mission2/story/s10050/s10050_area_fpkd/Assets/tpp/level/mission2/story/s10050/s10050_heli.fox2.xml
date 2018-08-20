@@ -19,7 +19,7 @@
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="2">
           <value key="lzs_waterway_I_0000">0x05B97240</value>
-          <value key="TexturePackLoadConditioner0000">0x063A1580</value>
+          <value key="TexturePackLoadConditioner0000">0x063813C0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -74,7 +74,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A1580" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063813C0" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

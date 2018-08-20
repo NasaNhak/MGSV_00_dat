@@ -559,5 +559,7 @@
     <Entry LangId="info_st_19165" Color="1" Value="Goblin Suit (gold tiger).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
     <Entry LangId="info_st_19164" Color="1" Value="Goblin Suit (tiger stripe).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
     <Entry LangId="info_st_19163" Color="1" Value="Goblin Suit (olive drab).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="695594556" Color="1" Value="Energy Wall&#xA;Generates a protective shield that temporarily nullifies shots, stun effects, sleep, and markings.&#xA;Shield will dissipate if it takes a certain amount of damage.&#xA;&lt;I=G=HUD_DECIDE&gt;: Use&#xA;*Only usable in FOB Missions" />
+    <Entry Key="145210683" Color="1" Value="ENERGY WALL" />
   </Entries>
 </LangFile>

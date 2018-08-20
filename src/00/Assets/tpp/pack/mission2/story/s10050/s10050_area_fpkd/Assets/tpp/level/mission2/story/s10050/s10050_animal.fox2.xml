@@ -35,7 +35,7 @@
           <value key="anml_rat_03">0x05B93880</value>
           <value key="anml_rat_04">0x05B93A40</value>
           <value key="RatGameObject">0x05B93C00</value>
-          <value key="TexturePackLoadConditioner0000">0x063A10B0</value>
+          <value key="TexturePackLoadConditioner0000">0x06381190</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -807,7 +807,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A10B0" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06381190" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

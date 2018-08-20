@@ -18,7 +18,7 @@
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="2">
           <value key="SubtitlesBlockControllerData0000">0x06D4B300</value>
-          <value key="TexturePackLoadConditioner0000">0x05B98430</value>
+          <value key="TexturePackLoadConditioner0000">0x05B982E0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -37,7 +37,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x05B98430" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x05B982E0" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

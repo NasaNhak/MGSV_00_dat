@@ -9,7 +9,7 @@
     <class name="EffectDescription" super="" version="6" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x09848E40" unknown1="232" unknown2="647045">
+    <entity class="DataSet" classVersion="0" addr="0x096C9850" unknown1="232" unknown2="647045">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -18,21 +18,21 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="4">
-          <value key="ModelDescription0000">0x09848EB0</value>
-          <value key="FoxTargetDescription0000">0x09848F20</value>
-          <value key="EffectDescription0000">0x09848F90</value>
-          <value key="EffectDescription0001">0x09849000</value>
+          <value key="ModelDescription0000">0x096C98C0</value>
+          <value key="FoxTargetDescription0000">0x096C9930</value>
+          <value key="EffectDescription0000">0x096C99A0</value>
+          <value key="EffectDescription0001">0x096C9A10</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x09848EB0" unknown1="288" unknown2="647047">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C98C0" unknown1="288" unknown2="647047">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09848E40</value>
+          <value>0x096C9850</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">
@@ -78,16 +78,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="FoxTargetDescription" classVersion="1" addr="0x09848F20" unknown1="112" unknown2="647049">
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x096C9930" unknown1="112" unknown2="647049">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>FoxTargetDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09848E40</value>
+          <value>0x096C9850</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/put/pt03_main0_def.parts" nameInArchive="ModelDescription0000">0x09848EB0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/put/pt03_main0_def.parts" nameInArchive="ModelDescription0000">0x096C98C0</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -101,16 +101,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09848F90" unknown1="232" unknown2="647052">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C99A0" unknown1="232" unknown2="647052">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09848E40</value>
+          <value>0x096C9850</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/put/pt03_main0_def.parts" nameInArchive="ModelDescription0000">0x09848EB0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/put/pt03_main0_def.parts" nameInArchive="ModelDescription0000">0x096C98C0</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>Active</value>
@@ -160,16 +160,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09849000" unknown1="232" unknown2="647055">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C9A10" unknown1="232" unknown2="647055">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0001</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09848E40</value>
+          <value>0x096C9850</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/put/pt03_main0_def.parts" nameInArchive="ModelDescription0000">0x09848EB0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/put/pt03_main0_def.parts" nameInArchive="ModelDescription0000">0x096C98C0</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>ActiveLamp</value>

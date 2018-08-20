@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="2d26ea9839391.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/player2_facial_quiet.fox2" />
+  </Entries>
+  <References />
+</ArchiveFile>

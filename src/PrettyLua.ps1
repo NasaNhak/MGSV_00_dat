@@ -1,13 +1,13 @@
 #param ([string]$StartFolder)
 #tex !!! path cant have anything but alphanemeric or will mess up, or rather ps is shitty about [] and probably spaces
 $StartFolders = @(
-".\00\init.lua",
+<# ".\00\init.lua",
 ".\00\Assets\tpp\level_asset\chara\enemy\",
 ".\00\Assets\tpp\level_asset\chara\player\game_object\",
 ".\00\Assets\tpp\level_asset\damage\ParameterTables\",
 ".\00\Assets\tpp\level_asset\weapon\ParameterTables\",
 ".\00\Assets\tpp\level_asset\weapon\ParameterTables\parts\",
-".\00\Assets\tpp\motherbase\script\",
+".\00\Assets\tpp\motherbase\script\", #>
 ".\00\Assets\tpp\script\lib\",
 ".\00\Assets\tpp\script\list\",
 ".\00\Assets\tpp\ui\Script\",
@@ -23,11 +23,11 @@ $findLastList = "if ", "if(", "elseif ", "elseif(", "for ", "for(", "while ", "w
 $findFirstList2 = "}", ")", "]" #tex could include these if also could search for \r\n, really just need to learn some decent regex
 $findLastList2 = "end", "return", "Tpp"
 
-$findFirstList3 = "{", "}", "},", "[", "]", "],"
-$findLastList3 = "{", "}", "[", "]"
+$findFirstList3 = "{", "}", "},", "[", "]", "],", "{{", "}}", "[[", "]]"
+$findLastList3 = "{", "}", "},", "[", "]", "],"
 
 $findFirstList4 = "`""
-$findLastList4 = "if ", "for ", "then", "end", "else "
+$findLastList4 = "if ", "for ", "then", "end", "else ", "do "
 
 
 #`"

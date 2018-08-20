@@ -3611,7 +3611,7 @@ this.CheckEventTaskOnGoal = function ()
 		FobUI.UpdateEventTask{ detectType = 69, diff = 1, }		
 	end
 
-	if not TppPlayer.IsCurrentPlayerOcelot() then 
+	if not TppPlayer.IsCurrentPlayerOcelot() and not TppPlayer.IsCurrentPlayerQuiet() then  --> Update 1.0.14
 		local equipGrade = Player.GetGradeMaxInEquipment()		
 		if equipGrade then
 			FobUI.UpdateEventTask{ detectType = 70, substitute = equipGrade, }				

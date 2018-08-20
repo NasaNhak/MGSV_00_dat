@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="Soldier2Common.fpk" FpkType="Fpk">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/corpse/Corpse_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/motion_graph/soldier2/Soldier2_layers.mog" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/corpse/Corpse_common.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/npc/TppMaleFacial.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/soldier2/Soldier_common.mtar" />
+    <Entry FilePath="/Assets/tpp/motion/mtar/soldier2/npc_human_common.mtar" />
+    <Entry FilePath="/Assets/tpp/level_asset/speech/CpRadioSeqCommon.spch" />
+    <Entry FilePath="/Assets/tpp/level_asset/speech/speech_conversation_MB.spch" />
+    <Entry FilePath="/Assets/tpp/level_asset/speech/speech_conversation_PF.spch" />
+    <Entry FilePath="/Assets/tpp/level_asset/speech/speech_conversation_USSR.spch" />
+  </Entries>
+  <References />
+</ArchiveFile>

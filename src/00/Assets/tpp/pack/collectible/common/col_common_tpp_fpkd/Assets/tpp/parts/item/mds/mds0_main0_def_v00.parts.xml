@@ -8,7 +8,7 @@
     <class name="EffectDescription" super="" version="6" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x09846910" unknown1="232" unknown2="3058435">
+    <entity class="DataSet" classVersion="0" addr="0x096C7320" unknown1="232" unknown2="3058435">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -17,19 +17,19 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="2">
-          <value key="ModelDescription0000">0x09846980</value>
-          <value key="EffectDescription0000">0x098469F0</value>
+          <value key="ModelDescription0000">0x096C7390</value>
+          <value key="EffectDescription0000">0x096C7400</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x09846980" unknown1="288" unknown2="3058437">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C7390" unknown1="288" unknown2="3058437">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846910</value>
+          <value>0x096C7320</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">
@@ -75,16 +75,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x098469F0" unknown1="232" unknown2="3058439">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C7400" unknown1="232" unknown2="3058439">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846910</value>
+          <value>0x096C7320</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/mds/mds0_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x09846980</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/mds/mds0_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x096C7390</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>Active</value>

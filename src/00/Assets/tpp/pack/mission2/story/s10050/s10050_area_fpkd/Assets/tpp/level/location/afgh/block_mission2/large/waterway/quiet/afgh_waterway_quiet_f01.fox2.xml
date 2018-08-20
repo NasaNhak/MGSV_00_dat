@@ -22,7 +22,7 @@
           <value key="qui_waterway_SE">0x05B92690</value>
           <value key="qui_waterway_SW">0x05B927E0</value>
           <value key="qui_waterway_NW">0x05B92930</value>
-          <value key="TexturePackLoadConditioner0000">0x063A0DA0</value>
+          <value key="TexturePackLoadConditioner0000">0x06380FD0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -215,7 +215,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A0DA0" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06380FD0" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

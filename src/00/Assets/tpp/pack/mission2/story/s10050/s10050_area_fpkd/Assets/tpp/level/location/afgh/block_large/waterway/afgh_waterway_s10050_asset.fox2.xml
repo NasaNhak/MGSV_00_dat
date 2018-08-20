@@ -22,10 +22,10 @@
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="6">
           <value key="ConvertedFromTppObjectBrushPluginSkeletonModel0001">0x05134FB0</value>
           <value key="ConvertedFromTppObjectBrushPluginSkeletonModel0004">0x0513A880</value>
-          <value key="StaticModelArray0000">0x063A0710</value>
-          <value key="StaticModelArray0001">0x063A0160</value>
-          <value key="GeoxGeomSetLoader0000">0x063A01D0</value>
-          <value key="TexturePackLoadConditioner0000">0x063A0B00</value>
+          <value key="StaticModelArray0000">0x06380470</value>
+          <value key="StaticModelArray0001">0x063801D0</value>
+          <value key="GeoxGeomSetLoader0000">0x063806A0</value>
+          <value key="TexturePackLoadConditioner0000">0x06380DA0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -124,7 +124,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="StaticModelArray" classVersion="4" addr="0x063A0710" unknown1="208" unknown2="0">
+    <entity class="StaticModelArray" classVersion="4" addr="0x06380470" unknown1="208" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>StaticModelArray0000</value>
@@ -2101,7 +2101,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="StaticModelArray" classVersion="4" addr="0x063A0160" unknown1="208" unknown2="0">
+    <entity class="StaticModelArray" classVersion="4" addr="0x063801D0" unknown1="208" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>StaticModelArray0001</value>
@@ -2615,7 +2615,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GeoxGeomSetLoader" classVersion="0" addr="0x063A01D0" unknown1="288" unknown2="0">
+    <entity class="GeoxGeomSetLoader" classVersion="0" addr="0x063806A0" unknown1="288" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>GeoxGeomSetLoader0000</value>
@@ -2645,7 +2645,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A0B00" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06380DA0" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

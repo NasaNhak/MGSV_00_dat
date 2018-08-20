@@ -9,7 +9,7 @@
     <class name="TexturePackLoadConditioner" super="" version="0" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x0984A730" unknown1="232" unknown2="5308">
+    <entity class="DataSet" classVersion="0" addr="0x096CB140" unknown1="232" unknown2="5308">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -18,20 +18,20 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
-          <value key="UiGraphEntry0000">0x0984A7A0</value>
-          <value key="UiInstanceData0000">0x0984A810</value>
-          <value key="TexturePackLoadConditioner0000">0x09DF8AC0</value>
+          <value key="UiGraphEntry0000">0x096CB1B0</value>
+          <value key="UiInstanceData0000">0x096CB220</value>
+          <value key="TexturePackLoadConditioner0000">0x09DC3960</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="UiGraphEntry" classVersion="1" addr="0x0984A7A0" unknown1="96" unknown2="5310">
+    <entity class="UiGraphEntry" classVersion="1" addr="0x096CB1B0" unknown1="96" unknown2="5310">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>UiGraphEntry0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x0984A730</value>
+          <value>0x096CB140</value>
         </property>
         <property name="files" type="FilePtr" container="DynamicArray" />
         <property name="rawFiles" type="FilePtr" container="DynamicArray" arraySize="1">
@@ -40,13 +40,13 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="UiInstanceData" classVersion="1" addr="0x0984A810" unknown1="120" unknown2="5313">
+    <entity class="UiInstanceData" classVersion="1" addr="0x096CB220" unknown1="120" unknown2="5313">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>UiInstanceData0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x0984A730</value>
+          <value>0x096CB140</value>
         </property>
         <property name="createWindowParams" type="FilePtr" container="StringMap" />
         <property name="windowFactoryName" type="String" container="StaticArray" arraySize="1">
@@ -55,13 +55,13 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x09DF8AC0" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x09DC3960" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x0984A730</value>
+          <value>0x096CB140</value>
         </property>
         <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />

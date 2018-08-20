@@ -16,12 +16,12 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="1">
-          <value key="GeoxTargetDesc0000">0x063A2930</value>
+          <value key="GeoxTargetDesc0000">0x06382CB0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GeoxTargetDesc" classVersion="0" addr="0x063A2930" unknown1="264" unknown2="0">
+    <entity class="GeoxTargetDesc" classVersion="0" addr="0x06382CB0" unknown1="264" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>GeoxTargetDesc0000</value>

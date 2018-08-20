@@ -670,5 +670,14 @@
     <Entry Key="910147341" Color="1" Value="" />
     <Entry Key="73923997" Color="1" Value="" />
     <Entry LangId="ability_1113" Color="1" Value="If the user is about to die, pass out, or similar, it will activate automatically." />
+    <Entry Key="3807953435" Color="1" Value="Stun Dark Matter Generator&#xA;Emits a massive ball of stun dark matter that blocks light and has a stun effect.&#xA;Ball knocks out any enemy that comes into contact with it.&#xA;After placing, press Ready Button (&lt;I=G=HOLD&gt;) and Action Button (&lt;I=G=ACTION&gt;) to activate.&#xA;*Only usable in FOB Missions" />
+    <Entry Key="1582369930" Color="1" Value="STUN DM GENERATOR" />
+    <Entry Key="1179189120" Color="1" Value="Dark Matter Generator&#xA;Emits a massive ball of dark matter that blocks light.&#xA;Ball inflicts damage on any enemy that comes into contact with it.&#xA;After placing, press Ready Button (&lt;I=G=HOLD&gt;) and Action Button (&lt;I=G=ACTION&gt;) to activate.&#xA;*Only usable in FOB Missions" />
+    <Entry Key="3789792152" Color="1" Value="DM GENERATOR" />
+    <Entry Key="2956336442" Color="1" Value="RENOV-ICKX TP BIS" />
+    <Entry Key="3844804740" Color="1" Value="Renov-Ickx bis Sniper Rifle" />
+    <Entry Key="4103468074" Color="1" Value="Sniper rifle that fires rounds that penetrate obstacles.&#xA;Boasts extremely long effective range and exceedingly high stopping power and penetration.&#xA;*Only usable in FOB Missions" />
+    <Entry Key="914524281" Color="1" Value="RENOV-ICKX BIS" />
+    <Entry Key="3130064445" Color="1" Value="Obstacle Penetration" />
   </Entries>
 </LangFile>

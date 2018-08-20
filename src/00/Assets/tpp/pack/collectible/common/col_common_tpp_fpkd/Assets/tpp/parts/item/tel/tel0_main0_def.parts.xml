@@ -7,7 +7,7 @@
     <class name="ModelDescription" super="" version="12" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x098474E0" unknown1="232" unknown2="1669">
+    <entity class="DataSet" classVersion="0" addr="0x096C7EF0" unknown1="232" unknown2="1669">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -16,18 +16,18 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="1">
-          <value key="ModelDescription0000">0x09847550</value>
+          <value key="ModelDescription0000">0x096C7F60</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x09847550" unknown1="288" unknown2="1671">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C7F60" unknown1="288" unknown2="1671">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x098474E0</value>
+          <value>0x096C7EF0</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">

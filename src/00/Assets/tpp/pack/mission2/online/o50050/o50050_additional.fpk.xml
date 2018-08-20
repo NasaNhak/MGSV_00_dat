@@ -4,10 +4,17 @@
     <Entry FilePath="/Assets/tpp/radio/RadioData_comn8000.rdf" />
     <Entry FilePath="/Assets/tpp/level/mission2/online/o50050/CpRadioSeqCommon_additional.spch" />
     <Entry FilePath="/Assets/tpp/ui/LayoutAsset/hud_terop_licence/UI_hud_terop_licence.uilb" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_model/fxm_shield/scenes/fxm_shield01.fmdl" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_model/fxm_shield/scenes/fxm_shield02.fmdl" />
+    <Entry FilePath="/Assets/tpp/mecha/dbr/Scenes/dbr0_main0_def.fmdl" />
     <Entry FilePath="/Assets/tpp/mecha/dbr/Scenes/dbr0_main1_def.fmdl" />
     <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt01_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt20_main0_def.fmdl" />
+    <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt20_main1_def.fmdl" />
     <Entry FilePath="/Assets/tpp/weapon/thr/Scenes/tr07_main0_def.fmdl" />
     <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt01_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt20_main0_def.fcnp" />
+    <Entry FilePath="/Assets/tpp/weapon/put/Scenes/pt20_main1_def.fcnp" />
     <Entry FilePath="/Assets/tpp/weapon/thr/Scenes/tr07_main0_def.fcnp" />
     <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_missioncommon/Scenes/UI_hud_terop_licence.uif" />
     <Entry FilePath="/Assets/tpp/ui/ModelAsset/hud_terop_missioncommon/Scenes/UI_hud_trp_licence_setin.uia" />

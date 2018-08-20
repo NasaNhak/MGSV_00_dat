@@ -8,7 +8,7 @@
     <class name="EffectDescription" super="" version="6" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x09847860" unknown1="232" unknown2="35919">
+    <entity class="DataSet" classVersion="0" addr="0x096C8270" unknown1="232" unknown2="35919">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -17,20 +17,20 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
-          <value key="ModelDescription0000">0x098478D0</value>
-          <value key="EffectDescription0001">0x09847940</value>
-          <value key="EffectDescription0002">0x098479B0</value>
+          <value key="ModelDescription0000">0x096C82E0</value>
+          <value key="EffectDescription0001">0x096C8350</value>
+          <value key="EffectDescription0002">0x096C83C0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x098478D0" unknown1="288" unknown2="35921">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C82E0" unknown1="288" unknown2="35921">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09847860</value>
+          <value>0x096C8270</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">
@@ -76,16 +76,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09847940" unknown1="232" unknown2="35923">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C8350" unknown1="232" unknown2="35923">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0001</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09847860</value>
+          <value>0x096C8270</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/shl/shl0_main0_def.parts" nameInArchive="ModelDescription0000">0x098478D0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/shl/shl0_main0_def.parts" nameInArchive="ModelDescription0000">0x096C82E0</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>Active</value>
@@ -135,16 +135,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x098479B0" unknown1="232" unknown2="35926">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C83C0" unknown1="232" unknown2="35926">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0002</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09847860</value>
+          <value>0x096C8270</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/shl/shl0_main0_def.parts" nameInArchive="ModelDescription0000">0x098478D0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/shl/shl0_main0_def.parts" nameInArchive="ModelDescription0000">0x096C82E0</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>TailSmoke</value>

@@ -8,7 +8,7 @@
     <class name="GeomSkeletonDescription" super="" version="1" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x09846050" unknown1="232" unknown2="885090">
+    <entity class="DataSet" classVersion="0" addr="0x096C6A60" unknown1="232" unknown2="885090">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -17,19 +17,19 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="2">
-          <value key="ModelDescription0000">0x09846130</value>
-          <value key="GeomSkeletonDescription0000">0x098461A0</value>
+          <value key="ModelDescription0000">0x096C6B40</value>
+          <value key="GeomSkeletonDescription0000">0x096C6BB0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x09846130" unknown1="288" unknown2="885092">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C6B40" unknown1="288" unknown2="885092">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846050</value>
+          <value>0x096C6A60</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">
@@ -75,16 +75,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GeomSkeletonDescription" classVersion="1" addr="0x098461A0" unknown1="112" unknown2="885094">
+    <entity class="GeomSkeletonDescription" classVersion="1" addr="0x096C6BB0" unknown1="112" unknown2="885094">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>GeomSkeletonDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846050</value>
+          <value>0x096C6A60</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/cbx/cbx0_main1_def_v00.parts" nameInArchive="ModelDescription0000">0x09846130</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/cbx/cbx0_main1_def_v00.parts" nameInArchive="ModelDescription0000">0x096C6B40</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />

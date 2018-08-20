@@ -8,7 +8,7 @@
     <class name="EffectDescription" super="" version="6" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x09847E80" unknown1="232" unknown2="8677599">
+    <entity class="DataSet" classVersion="0" addr="0x096C8890" unknown1="232" unknown2="8677599">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -17,20 +17,20 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
-          <value key="ModelDescription0000">0x09847EF0</value>
-          <value key="EffectDescription0000">0x09847F60</value>
-          <value key="EffectDescription0001">0x09847FD0</value>
+          <value key="ModelDescription0000">0x096C8900</value>
+          <value key="EffectDescription0000">0x096C8970</value>
+          <value key="EffectDescription0001">0x096C89E0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x09847EF0" unknown1="288" unknown2="8677601">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C8900" unknown1="288" unknown2="8677601">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09847E80</value>
+          <value>0x096C8890</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">
@@ -76,16 +76,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09847F60" unknown1="232" unknown2="8677604">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C8970" unknown1="232" unknown2="8677604">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09847E80</value>
+          <value>0x096C8890</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/hew/hw00_ammo1_def.parts" nameInArchive="ModelDescription0000">0x09847EF0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/hew/hw00_ammo1_def.parts" nameInArchive="ModelDescription0000">0x096C8900</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>Active</value>
@@ -135,16 +135,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09847FD0" unknown1="232" unknown2="8677608">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C89E0" unknown1="232" unknown2="8677608">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0001</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09847E80</value>
+          <value>0x096C8890</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/hew/hw00_ammo1_def.parts" nameInArchive="ModelDescription0000">0x09847EF0</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/weapon/hew/hw00_ammo1_def.parts" nameInArchive="ModelDescription0000">0x096C8900</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>TailSmoke</value>

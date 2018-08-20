@@ -24,7 +24,7 @@
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="37">
           <value key="RadioData0000">0x06E325B0</value>
-          <value key="EspionageRadioSystem">0x06DA51E0</value>
+          <value key="EspionageRadioSystem">0x06DB51E0</value>
           <value key="BoxShape0000">0x06CC8C80</value>
           <value key="erl_woods">0x06CC5CD0</value>
           <value key="RadioData_gmov">0x06C76440</value>
@@ -59,7 +59,7 @@
           <value key="BoxShape0019">0x06D46210</value>
           <value key="erl_house_02">0x06D463D0</value>
           <value key="erl_house_03">0x06D46590</value>
-          <value key="TexturePackLoadConditioner0000">0x063A1200</value>
+          <value key="TexturePackLoadConditioner0000">0x06380390</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -78,7 +78,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GameObject" classVersion="2" addr="0x06DA51E0" unknown1="88" unknown2="1782054">
+    <entity class="GameObject" classVersion="2" addr="0x06DB51E0" unknown1="88" unknown2="1782054">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EspionageRadioSystem</value>
@@ -99,15 +99,15 @@
           <value>0</value>
         </property>
         <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x06DA3B90</value>
+          <value>0x06DB3B90</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TppEspionageRadioSystemParameter" classVersion="0" addr="0x06DA3B90" unknown1="28" unknown2="1782056">
+    <entity class="TppEspionageRadioSystemParameter" classVersion="0" addr="0x06DB3B90" unknown1="28" unknown2="1782056">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x06DA51E0</value>
+          <value>0x06DB51E0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -2044,7 +2044,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A1200" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06380390" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

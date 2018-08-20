@@ -62,7 +62,7 @@
           <value key="shape_0005">0x06D499A0</value>
           <value key="trap_restrictPlayerAction">0x06D49B60</value>
           <value key="trap_checkStayStartPos">0x06D49CB0</value>
-          <value key="TexturePackLoadConditioner0000">0x063A09B0</value>
+          <value key="TexturePackLoadConditioner0000">0x06381120</value>
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -1631,7 +1631,7 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063A09B0" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06381120" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>

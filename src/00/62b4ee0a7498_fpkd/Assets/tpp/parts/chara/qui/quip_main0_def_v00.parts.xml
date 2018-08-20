@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="ModelDescription" super="" version="12" />
+    <class name="SimDescription" super="" version="1" />
+    <class name="FoxTargetDescription" super="" version="1" />
+    <class name="EffectDescription" super="" version="6" />
+    <class name="PhysicsDescription" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x0497EF60" unknown1="232" unknown2="14407">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="19">
+          <value key="ModelDescription0000">0x0497EFD0</value>
+          <value key="SimDescription0001">0x0497F040</value>
+          <value key="FoxTargetDescription0000">0x0497F0B0</value>
+          <value key="FoxTargetDescription0001">0x0497F120</value>
+          <value key="FoxTargetDescription0002">0x0497F190</value>
+          <value key="FoxTargetDescription0003">0x0497F200</value>
+          <value key="EffectDescription0000">0x0497F270</value>
+          <value key="FoxTargetDescription0005">0x0497F2E0</value>
+          <value key="EffectDescription0001">0x0497F350</value>
+          <value key="EffectDescription0002">0x0497F3C0</value>
+          <value key="EffectDescription0003">0x0497F430</value>
+          <value key="PhysicsDescription0001">0x0497F4A0</value>
+          <value key="SimDescription0004">0x0497F510</value>
+          <value key="EffectDescription0014">0x0497F580</value>
+          <value key="EffectDescription0015">0x0497F5F0</value>
+          <value key="EffectDescription0016">0x0497F660</value>
+          <value key="EffectDescription0009">0x0497F6D0</value>
+          <value key="EffectDescription0017">0x0497F740</value>
+          <value key="SimDescription0003">0x0497F7B0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="ModelDescription" classVersion="12" addr="0x0497EFD0" unknown1="288" unknown2="14409">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ModelDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" />
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Body</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="modelFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/qui/Scenes/quip_main0_def0.fmdl</value>
+        </property>
+        <property name="connectPointFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/qui/Scenes/quip_main0_def0.fcnp</value>
+        </property>
+        <property name="gameRigFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/rig/frig/human_finger.frig</value>
+        </property>
+        <property name="helpBoneFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/qui/Scenes/quip_main0_def0.frdv</value>
+        </property>
+        <property name="lipAdjustBinaryFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/motion/lip_adjust_data/avf.ladb</value>
+        </property>
+        <property name="facialSettingFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/motion/facial_setting_data/tppPlayer.fsd</value>
+        </property>
+        <property name="invisibleMeshNames" type="String" container="DynamicArray" />
+        <property name="lodFarPixelSize" type="float" container="StaticArray" arraySize="1">
+          <value>50</value>
+        </property>
+        <property name="lodNearPixelSize" type="float" container="StaticArray" arraySize="1">
+          <value>400</value>
+        </property>
+        <property name="lodPolygonSize" type="float" container="StaticArray" arraySize="1">
+          <value>-1</value>
+        </property>
+        <property name="drawRejectionLevel" type="int32" container="StaticArray" arraySize="1">
+          <value>8</value>
+        </property>
+        <property name="rejectFarRangeShadowCast" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimDescription" classVersion="1" addr="0x0497F040" unknown1="120" unknown2="14412">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>SimDescription0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Sim_asr</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="simFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/sna/Fox_files/sna0_main0_asr.sim</value>
+        </property>
+        <property name="isActive" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x0497F0B0" unknown1="112" unknown2="14415">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Target</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/sna/sna0_targetdefense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x0497F120" unknown1="112" unknown2="14418">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>TargetCqcDefense</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/sna/sna0_targetcqcdefense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x0497F190" unknown1="112" unknown2="14421">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>TargetPushOffense</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/sna/sna0_targetpushoffense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x0497F200" unknown1="112" unknown2="14424">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>TargetBushOffense</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/sna/sna0_targetbushoffense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F270" unknown1="232" unknown2="14427">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>breath</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_MOUTH</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkchrbrt01_s0GM.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x0497F2E0" unknown1="112" unknown2="14430">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0005</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>TargetSetPlayDefense</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/sna/sna0_targetcqcdefense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F350" unknown1="232" unknown2="14433">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>DiveSmoke</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_000_WAIST</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivsmk01_s1.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F3C0" unknown1="232" unknown2="14436">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Hang</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdsthnd01_s0LG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F430" unknown1="232" unknown2="14439">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Climb</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdstwst01_s1LG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhysicsDescription" classVersion="0" addr="0x0497F4A0" unknown1="112" unknown2="14442">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhysicsDescription0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Ragdoll</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="physicsFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/sna/sna0_v01.ph</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimDescription" classVersion="1" addr="0x0497F510" unknown1="120" unknown2="14445">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>SimDescription0004</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Sim_broken_arm</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="simFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/sna/Fox_files/sna0_broken_arm_r.sim</value>
+        </property>
+        <property name="isActive" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F580" unknown1="232" unknown2="14448">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0014</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Flare1</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_004_HEAD</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0.1" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0.2" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlgt24_m1LD.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F5F0" unknown1="232" unknown2="14451">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0015</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>DiveSplash</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_000_WAIST</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivspl01_s1.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F660" unknown1="232" unknown2="14454">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0016</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>DiveRiver</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_000_WAIST</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/chara/fx_tpp_chrdivspl02_s1.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F6D0" unknown1="232" unknown2="14457">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0009</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Burn</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="7">
+          <value>SKL_041_RLEG</value>
+          <value>SKL_031_LLEG</value>
+          <value>SKL_040_RTHIGH</value>
+          <value>SKL_030_LTHIGH</value>
+          <value>SKL_021_RUARM</value>
+          <value>SKL_011_LUARM</value>
+          <value>SKL_000_WAIST</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="7">
+          <value x="0" y="-0.3" z="0" w="0" />
+          <value x="0" y="-0.3" z="0" w="0" />
+          <value x="0" y="-0.2" z="0" w="0" />
+          <value x="0" y="-0.2" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="7">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/fire/fx_tpp_firchr02_s2.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0497F740" unknown1="232" unknown2="14460">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0017</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>ChickenHeadFeather</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_004_HEAD</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/item/fx_tpp_itmmskwng01_s1.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimDescription" classVersion="1" addr="0x0497F7B0" unknown1="120" unknown2="14463">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>SimDescription0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0497EF60</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/qui/quip_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0497EFD0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>SimQuiet</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="simFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/qui/Fox_files/quip_main0_def.sim</value>
+        </property>
+        <property name="isActive" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

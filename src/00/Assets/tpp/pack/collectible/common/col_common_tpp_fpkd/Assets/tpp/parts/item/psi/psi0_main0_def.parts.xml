@@ -8,7 +8,7 @@
     <class name="EffectDescription" super="" version="6" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x09846DE0" unknown1="232" unknown2="12358804">
+    <entity class="DataSet" classVersion="0" addr="0x096C77F0" unknown1="232" unknown2="12358804">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -17,20 +17,20 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="3">
-          <value key="ModelDescription0000">0x09846E50</value>
-          <value key="EffectDescription0000">0x09846EC0</value>
-          <value key="EffectDescription0001">0x09846F30</value>
+          <value key="ModelDescription0000">0x096C7860</value>
+          <value key="EffectDescription0000">0x096C78D0</value>
+          <value key="EffectDescription0001">0x096C7940</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="ModelDescription" classVersion="12" addr="0x09846E50" unknown1="288" unknown2="12358806">
+    <entity class="ModelDescription" classVersion="12" addr="0x096C7860" unknown1="288" unknown2="12358806">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>ModelDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846DE0</value>
+          <value>0x096C77F0</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" />
         <property name="partName" type="String" container="StaticArray" arraySize="1">
@@ -76,16 +76,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09846EC0" unknown1="232" unknown2="12358808">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C78D0" unknown1="232" unknown2="12358808">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846DE0</value>
+          <value>0x096C77F0</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/psi/psi0_main0_def.parts" nameInArchive="ModelDescription0000">0x09846E50</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/psi/psi0_main0_def.parts" nameInArchive="ModelDescription0000">0x096C7860</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>CigarFire</value>
@@ -135,16 +135,16 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="EffectDescription" classVersion="6" addr="0x09846F30" unknown1="232" unknown2="12358811">
+    <entity class="EffectDescription" classVersion="6" addr="0x096C7940" unknown1="232" unknown2="12358811">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>EffectDescription0001</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x09846DE0</value>
+          <value>0x096C77F0</value>
         </property>
         <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
-          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/psi/psi0_main0_def.parts" nameInArchive="ModelDescription0000">0x09846E50</value>
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/item/psi/psi0_main0_def.parts" nameInArchive="ModelDescription0000">0x096C7860</value>
         </property>
         <property name="partName" type="String" container="StaticArray" arraySize="1">
           <value>PhantomCigar</value>

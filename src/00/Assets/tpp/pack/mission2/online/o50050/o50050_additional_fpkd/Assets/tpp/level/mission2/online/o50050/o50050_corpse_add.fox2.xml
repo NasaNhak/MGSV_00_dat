@@ -10,7 +10,7 @@
     <class name="TexturePackLoadConditioner" super="" version="0" />
   </classes>
   <entities>
-    <entity class="DataSet" classVersion="0" addr="0x07233B20" unknown1="232" unknown2="152352">
+    <entity class="DataSet" classVersion="0" addr="0x044398C0" unknown1="232" unknown2="152352">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -19,28 +19,28 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="5">
-          <value key="TppCorpseGameObjectLocator0002">0x07233880</value>
-          <value key="TppCorpseGameObjectLocator0003">0x072336C0</value>
-          <value key="TppCorpseGameObjectLocator0004">0x072331F0</value>
-          <value key="TppCorpseGameObjectLocator0005">0x07233030</value>
-          <value key="TexturePackLoadConditioner0000">0x07238C80</value>
+          <value key="TppCorpseGameObjectLocator0002">0x04439620</value>
+          <value key="TppCorpseGameObjectLocator0003">0x04439460</value>
+          <value key="TppCorpseGameObjectLocator0004">0x04438F90</value>
+          <value key="TppCorpseGameObjectLocator0005">0x04438DD0</value>
+          <value key="TexturePackLoadConditioner0000">0x0443E010</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GameObjectLocator" classVersion="2" addr="0x07233880" unknown1="272" unknown2="152354">
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04439620" unknown1="272" unknown2="152354">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TppCorpseGameObjectLocator0002</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233B20</value>
+          <value>0x044398C0</value>
         </property>
         <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
         </property>
         <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x072338F0</value>
+          <value>0x04439690</value>
         </property>
         <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
@@ -59,15 +59,15 @@
           <value>0</value>
         </property>
         <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07233650</value>
+          <value>0x044393F0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TransformEntity" classVersion="0" addr="0x072338F0" unknown1="80" unknown2="152357">
+    <entity class="TransformEntity" classVersion="0" addr="0x04439690" unknown1="80" unknown2="152357">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233880</value>
+          <value>0x04439620</value>
         </property>
         <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
           <value x="1" y="1" z="1" w="0" />
@@ -81,10 +81,10 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x07233650" unknown1="36" unknown2="152359">
+    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x044393F0" unknown1="36" unknown2="152359">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233880</value>
+          <value>0x04439620</value>
         </property>
         <property name="identifier" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -95,19 +95,19 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GameObjectLocator" classVersion="2" addr="0x072336C0" unknown1="272" unknown2="152361">
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04439460" unknown1="272" unknown2="152361">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TppCorpseGameObjectLocator0003</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233B20</value>
+          <value>0x044398C0</value>
         </property>
         <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
         </property>
         <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07233420</value>
+          <value>0x044391C0</value>
         </property>
         <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
@@ -126,15 +126,15 @@
           <value>0</value>
         </property>
         <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07233490</value>
+          <value>0x04439230</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TransformEntity" classVersion="0" addr="0x07233420" unknown1="80" unknown2="152364">
+    <entity class="TransformEntity" classVersion="0" addr="0x044391C0" unknown1="80" unknown2="152364">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x072336C0</value>
+          <value>0x04439460</value>
         </property>
         <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
           <value x="1" y="1" z="1" w="0" />
@@ -148,10 +148,10 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x07233490" unknown1="36" unknown2="152366">
+    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x04439230" unknown1="36" unknown2="152366">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x072336C0</value>
+          <value>0x04439460</value>
         </property>
         <property name="identifier" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -162,19 +162,19 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GameObjectLocator" classVersion="2" addr="0x072331F0" unknown1="272" unknown2="152368">
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04438F90" unknown1="272" unknown2="152368">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TppCorpseGameObjectLocator0004</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233B20</value>
+          <value>0x044398C0</value>
         </property>
         <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
         </property>
         <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07233260</value>
+          <value>0x04439000</value>
         </property>
         <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
@@ -193,15 +193,15 @@
           <value>0</value>
         </property>
         <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07232FC0</value>
+          <value>0x04438D60</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TransformEntity" classVersion="0" addr="0x07233260" unknown1="80" unknown2="152371">
+    <entity class="TransformEntity" classVersion="0" addr="0x04439000" unknown1="80" unknown2="152371">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x072331F0</value>
+          <value>0x04438F90</value>
         </property>
         <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
           <value x="1" y="1" z="1" w="0" />
@@ -215,10 +215,10 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x07232FC0" unknown1="36" unknown2="152373">
+    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x04438D60" unknown1="36" unknown2="152373">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x072331F0</value>
+          <value>0x04438F90</value>
         </property>
         <property name="identifier" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -229,19 +229,19 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="GameObjectLocator" classVersion="2" addr="0x07233030" unknown1="272" unknown2="152375">
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04438DD0" unknown1="272" unknown2="152375">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TppCorpseGameObjectLocator0005</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233B20</value>
+          <value>0x044398C0</value>
         </property>
         <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
         </property>
         <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07232D90</value>
+          <value>0x04438B30</value>
         </property>
         <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
@@ -260,15 +260,15 @@
           <value>0</value>
         </property>
         <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x07232E00</value>
+          <value>0x04438BA0</value>
         </property>
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TransformEntity" classVersion="0" addr="0x07232D90" unknown1="80" unknown2="152378">
+    <entity class="TransformEntity" classVersion="0" addr="0x04438B30" unknown1="80" unknown2="152378">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233030</value>
+          <value>0x04438DD0</value>
         </property>
         <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
           <value x="1" y="1" z="1" w="0" />
@@ -282,10 +282,10 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x07232E00" unknown1="36" unknown2="152380">
+    <entity class="TppCorpseLocatorParameter" classVersion="0" addr="0x04438BA0" unknown1="36" unknown2="152380">
       <staticProperties>
         <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233030</value>
+          <value>0x04438DD0</value>
         </property>
         <property name="identifier" type="String" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
@@ -296,13 +296,13 @@
       </staticProperties>
       <dynamicProperties />
     </entity>
-    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x07238C80" unknown1="72" unknown2="0">
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x0443E010" unknown1="72" unknown2="0">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
           <value>TexturePackLoadConditioner0000</value>
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x07233B20</value>
+          <value>0x044398C0</value>
         </property>
         <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
           <value hash="0xB8A0BF169F98" />
