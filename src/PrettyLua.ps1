@@ -1,20 +1,24 @@
+$ScriptDir = Split-Path $script:MyInvocation.MyCommand.Path
+ 
+Write-Host "Current script directory is $ScriptDir"
+
 #param ([string]$StartFolder)
 #tex !!! path cant have anything but alphanemeric or will mess up, or rather ps is shitty about [] and probably spaces
 $StartFolders = @(
-<# ".\00\init.lua",
-".\00\Assets\tpp\level_asset\chara\enemy\",
-".\00\Assets\tpp\level_asset\chara\player\game_object\",
-".\00\Assets\tpp\level_asset\damage\ParameterTables\",
-".\00\Assets\tpp\level_asset\weapon\ParameterTables\",
-".\00\Assets\tpp\level_asset\weapon\ParameterTables\parts\",
-".\00\Assets\tpp\motherbase\script\", #>
-".\00\Assets\tpp\script\lib\",
-".\00\Assets\tpp\script\list\",
-".\00\Assets\tpp\ui\Script\",
-".\00\Fox\Scripts\Gr\",
-".\00\Tpp\",
-".\00\Tpp\Scripts\Equip\",
-".\00\Tpp\Scripts\Ui\"
+"$ScriptDir\00\init.lua",
+"$ScriptDir\00\Assets\tpp\level_asset\chara\enemy\",
+"$ScriptDir\00\Assets\tpp\level_asset\chara\player\game_object\",
+"$ScriptDir\00\Assets\tpp\level_asset\damage\ParameterTables\",
+"$ScriptDir\00\Assets\tpp\level_asset\weapon\ParameterTables\",
+"$ScriptDir\00\Assets\tpp\level_asset\weapon\ParameterTables\parts\",
+"$ScriptDir\00\Assets\tpp\motherbase\script\",
+"$ScriptDir\00\Assets\tpp\script\lib\",
+"$ScriptDir\00\Assets\tpp\script\list\",
+"$ScriptDir\00\Assets\tpp\ui\Script\",
+"$ScriptDir\00\Fox\Scripts\Gr\",
+"$ScriptDir\00\Tpp\",
+"$ScriptDir\00\Tpp\Scripts\Equip\",
+"$ScriptDir\00\Tpp\Scripts\Ui\"
 )
 
 $findFirstList = "}", ")", "]"
